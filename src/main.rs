@@ -108,6 +108,11 @@ fn process_hex_str<S: AsRef<str>>(hex_str: S) -> Result<()> {
     match colour {
         Exact(c) => println!("#{} -> {}", hex_str, c.format_dmc()),
         Approx(cs) => {
+            /*
+             FIXME: When iter_intersperse goes stable, make itertools
+              dependency conditional
+             https://github.com/rust-lang/rust/issues/79524
+             */
             #[allow(unstable_name_collisions)]
             let dmcs_string = cs
                 .into_iter()
