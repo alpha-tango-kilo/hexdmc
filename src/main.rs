@@ -1,10 +1,10 @@
 use anyhow::{anyhow, bail, Context, Result};
+use itertools::Itertools;
 use phf::{phf_map, Map};
 use std::env;
 
 type Rgb = [u8; 3];
 
-#[derive(Debug)]
 struct ColourMap<const N: usize> {
     colours: [Colour; N],
     by_floss: Map<&'static str, usize>,
@@ -21,20 +21,36 @@ impl<const N: usize> ColourMap<N> {
         }
     }
 
-    fn lookup_rgb(&self, rgb: Rgb) -> &Colour {
+    fn lookup_rgb(&self, rgb: Rgb) -> RgbMatch {
+        use RgbMatch::*;
         match self.by_rgb.get(&rgb) {
-            Some(exact_index) => &self.colours[*exact_index],
+            Some(exact_index) => Exact(&self.colours[*exact_index]),
             None => {
-                eprintln!("No direct match, approximating");
-                self.colours.iter()
-                    .min_by(|c1, c2| c1.diff(rgb).cmp(&c2.diff(rgb)))
-                    .unwrap()
+                let mut min_diff = u16::MAX;
+                let mut closest = Vec::new();
+                self.colours.iter().for_each(|c| {
+                    let diff = c.diff(rgb);
+                    use std::cmp::Ordering::*;
+                    match diff.cmp(&min_diff) {
+                        Less => {
+                            min_diff = diff;
+                            closest = vec![c];
+                        }
+                        Equal => closest.push(c),
+                        Greater => {}
+                    }
+                });
+                Approx(closest)
             }
         }
     }
 }
 
-#[derive(Debug, Eq, PartialEq)]
+enum RgbMatch<'c> {
+    Exact(&'c Colour),
+    Approx(Vec<&'c Colour>),
+}
+
 struct Colour {
     floss: &'static str,
     name: &'static str,
@@ -49,19 +65,21 @@ impl Colour {
     }
 
     fn format_hex(&self) -> String {
-        rgb_format_hex(self.to_rgb())
-    }
-
-    fn to_rgb(&self) -> Rgb {
-        [self.r, self.g, self.b]
+        format!("#{:02x?}{:02x?}{:02x?}", self.r, self.g, self.b)
     }
 
     fn diff(&self, other: Rgb) -> u16 {
-        let r_diff = self.r.checked_sub(other[0])
+        let r_diff = self
+            .r
+            .checked_sub(other[0])
             .unwrap_or_else(|| other[0] - self.r);
-        let g_diff = self.g.checked_sub(other[1])
+        let g_diff = self
+            .g
+            .checked_sub(other[1])
             .unwrap_or_else(|| other[1] - self.g);
-        let b_diff = self.b.checked_sub(other[2])
+        let b_diff = self
+            .b
+            .checked_sub(other[2])
             .unwrap_or_else(|| other[2] - self.b);
         r_diff as u16 + g_diff as u16 + b_diff as u16
     }
@@ -81,13 +99,27 @@ fn main() -> Result<()> {
 
 fn process_hex_str<S: AsRef<str>>(hex_str: S) -> Result<()> {
     let rgb = rgb_from_hex(hex_str.as_ref())?;
-    let colour = COLOUR_MAP.lookup_rgb(rgb);
-    println!("{} -> {}", rgb_format_hex(rgb), colour.format_dmc());
+    let colour: RgbMatch = COLOUR_MAP.lookup_rgb(rgb);
+    let hex_str = format!("#{}", hex_str.as_ref().to_ascii_lowercase());
+
+    use RgbMatch::*;
+    match colour {
+        Exact(c) => println!("{} -> {}", hex_str, c.format_dmc()),
+        Approx(cs) => {
+            #[allow(unstable_name_collisions)]
+            let dmcs_string = cs
+                .into_iter()
+                .map(Colour::format_dmc)
+                .intersperse(String::from(", or "))
+                .collect::<String>();
+            println!("{} ~> {}", hex_str, dmcs_string);
+        }
+    }
     Ok(())
 }
 
 fn process_dmc_str<S: AsRef<str>>(dmc_str: S) -> Result<()> {
-    let colour = COLOUR_MAP.lookup_floss(dmc_str.as_ref())?;
+    let colour: &Colour = COLOUR_MAP.lookup_floss(dmc_str.as_ref())?;
     println!("{} -> {}", dmc_str.as_ref(), colour.format_hex());
     Ok(())
 }
@@ -102,10 +134,6 @@ fn rgb_from_hex(s: &str) -> Result<Rgb> {
     } else {
         bail!("not hex string")
     }
-}
-
-fn rgb_format_hex(rgb: Rgb) -> String {
-    format!("#{:02x?}{:02x?}{:02x?}", rgb[0], rgb[1], rgb[2])
 }
 
 // Provides static COLOUR_MAP: ColourMap
