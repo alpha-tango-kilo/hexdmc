@@ -25,8 +25,10 @@ impl<const N: usize> ColourMap<N> {
         match self.by_rgb.get(&rgb) {
             Some(exact_index) => &self.colours[*exact_index],
             None => {
-                println!("No direct match, approximating");
-                todo!()
+                eprintln!("No direct match, approximating");
+                self.colours.iter()
+                    .min_by(|c1, c2| c1.diff(rgb).cmp(&c2.diff(rgb)))
+                    .unwrap()
             }
         }
     }
@@ -52,6 +54,16 @@ impl Colour {
 
     fn to_rgb(&self) -> Rgb {
         [self.r, self.g, self.b]
+    }
+
+    fn diff(&self, other: Rgb) -> u16 {
+        let r_diff = self.r.checked_sub(other[0])
+            .unwrap_or_else(|| other[0] - self.r);
+        let g_diff = self.g.checked_sub(other[1])
+            .unwrap_or_else(|| other[1] - self.g);
+        let b_diff = self.b.checked_sub(other[2])
+            .unwrap_or_else(|| other[2] - self.b);
+        r_diff as u16 + g_diff as u16 + b_diff as u16
     }
 }
 
