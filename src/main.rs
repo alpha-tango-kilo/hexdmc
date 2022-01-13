@@ -1,52 +1,44 @@
 use anyhow::{anyhow, bail, Context, Result};
-use codegen::COLOUR_MAP;
-use phf::{phf_map, Map, PhfHash};
-use phf_shared::PhfBorrow;
+use phf::{phf_map, Map};
 use std::env;
-use std::hash::Hasher;
-use std::sync::Arc;
 
-mod codegen;
+type Rgb = [u8; 3];
 
-pub struct ColourMap {
-    by_floss: Map<u16, Arc<Colour>>,
-    by_rgb: Map<Rgb, Arc<Colour>>,
+#[derive(Debug)]
+struct ColourMap<const N: usize> {
+    colours: [Colour; N],
+    by_floss: Map<&'static str, usize>,
+    by_rgb: Map<Rgb, usize>,
 }
 
-impl ColourMap {
+impl<const N: usize> ColourMap<N> {
     // Note: will only not match if the floss is invalid, as all valid flosses
     // have a corresponding hex code
-    fn lookup_floss(&self, floss: u16) -> Result<&Colour> {
-        match self.by_floss.get(&floss) {
-            Some(colour) => Ok(colour.as_ref()),
+    fn lookup_floss(&self, floss: &str) -> Result<&Colour> {
+        match self.by_floss.get(floss) {
+            Some(index) => Ok(&self.colours[*index]),
             None => Err(anyhow!("invalid floss")),
         }
     }
 
     fn lookup_rgb(&self, rgb: Rgb) -> &Colour {
         match self.by_rgb.get(&rgb) {
-            Some(exact) => exact.as_ref(),
+            Some(exact_index) => &self.colours[*exact_index],
             None => {
                 println!("No direct match, approximating");
                 todo!()
             }
         }
     }
-
-    // FIXME: remove this once we have a build script
-    pub const fn new() -> Self {
-        ColourMap {
-            by_floss: phf_map! {},
-            by_rgb: phf_map! {},
-        }
-    }
 }
 
 #[derive(Debug, Eq, PartialEq)]
 struct Colour {
-    floss: u16,
+    floss: &'static str,
     name: &'static str,
-    rgb: Rgb,
+    r: u8,
+    g: u8,
+    b: u8,
 }
 
 impl Colour {
@@ -55,41 +47,11 @@ impl Colour {
     }
 
     fn format_hex(&self) -> String {
-        self.rgb.format_hex()
-    }
-}
-
-#[derive(Debug, Copy, Clone, Eq, PartialEq)]
-struct Rgb(u8, u8, u8);
-
-impl Rgb {
-    // e.g. "123455", "ab34ee", "AF1234"
-    fn from_hex(s: &str) -> Result<Rgb> {
-        if s.len() == 6 {
-            let r = u8::from_str_radix(&s[1..3], 16)?;
-            let g = u8::from_str_radix(&s[3..5], 16)?;
-            let b = u8::from_str_radix(&s[5..7], 16)?;
-            Ok(Rgb(r, g, b))
-        } else {
-            bail!("not hex string")
-        }
+        rgb_format_hex(self.to_rgb())
     }
 
-    fn format_hex(&self) -> String {
-        format!("#{:02x?}{:02x?}{:02x?}", self.0, self.1, self.2)
-    }
-}
-
-impl PhfHash for Rgb {
-    fn phf_hash<H: Hasher>(&self, state: &mut H) {
-        let arr = [self.0, self.1, self.2];
-        arr.phf_hash(state);
-    }
-}
-
-impl PhfBorrow<Rgb> for Rgb {
-    fn borrow(&self) -> &Rgb {
-        self
+    fn to_rgb(&self) -> Rgb {
+        [self.r, self.g, self.b]
     }
 }
 
@@ -106,15 +68,33 @@ fn main() -> Result<()> {
 }
 
 fn process_hex_str<S: AsRef<str>>(hex_str: S) -> Result<()> {
-    let rgb = Rgb::from_hex(hex_str.as_ref())?;
+    let rgb = rgb_from_hex(hex_str.as_ref())?;
     let colour = COLOUR_MAP.lookup_rgb(rgb);
-    println!("{} -> {}", rgb.format_hex(), colour.format_dmc());
+    println!("{} -> {}", rgb_format_hex(rgb), colour.format_dmc());
     Ok(())
 }
 
 fn process_dmc_str<S: AsRef<str>>(dmc_str: S) -> Result<()> {
-    let floss = dmc_str.as_ref().parse::<u16>()?;
-    let colour = COLOUR_MAP.lookup_floss(floss)?;
-    println!("{} -> {}", floss, colour.format_hex());
+    let colour = COLOUR_MAP.lookup_floss(dmc_str.as_ref())?;
+    println!("{} -> {}", dmc_str.as_ref(), colour.format_hex());
     Ok(())
 }
+
+// e.g. "123455", "ab34ee", "AF1234"
+fn rgb_from_hex(s: &str) -> Result<Rgb> {
+    if s.len() == 6 {
+        let r = u8::from_str_radix(&s[1..3], 16)?;
+        let g = u8::from_str_radix(&s[3..5], 16)?;
+        let b = u8::from_str_radix(&s[5..7], 16)?;
+        Ok([r, g, b])
+    } else {
+        bail!("not hex string")
+    }
+}
+
+fn rgb_format_hex(rgb: Rgb) -> String {
+    format!("#{:02x?}{:02x?}{:02x?}", rgb[0], rgb[1], rgb[2])
+}
+
+// Provides static COLOUR_MAP: ColourMap
+include!(concat!(env!("OUT_DIR"), "/codegen.rs"));
