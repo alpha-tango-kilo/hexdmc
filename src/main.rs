@@ -15,7 +15,8 @@ impl<const N: usize> ColourMap<N> {
     // Note: will only not match if the floss is invalid, as all valid flosses
     // have a corresponding hex code
     fn lookup_floss(&self, floss: &str) -> Result<&Colour> {
-        match self.by_floss.get(floss) {
+        let floss = floss.to_ascii_lowercase();
+        match self.by_floss.get(&floss) {
             Some(index) => Ok(&self.colours[*index]),
             None => Err(anyhow!("invalid floss")),
         }
@@ -88,7 +89,7 @@ impl Colour {
 fn main() -> Result<()> {
     let subcommand = env::args().nth(1).context("No subcommand provided")?;
 
-    let processing_fn = match subcommand.as_str() {
+    let processing_fn = match subcommand.to_ascii_lowercase().as_str() {
         "hex" => process_hex_str,
         "dmc" => process_dmc_str,
         _ => bail!("invalid subcommand"),
@@ -98,13 +99,14 @@ fn main() -> Result<()> {
 }
 
 fn process_hex_str<S: AsRef<str>>(hex_str: S) -> Result<()> {
-    let rgb = rgb_from_hex(hex_str.as_ref())?;
+    let hex_str = hex_str.as_ref();
+    let hex_str = hex_str.strip_prefix('#').unwrap_or(hex_str);
+    let rgb = rgb_from_hex(hex_str)?;
     let colour: RgbMatch = COLOUR_MAP.lookup_rgb(rgb);
-    let hex_str = format!("#{}", hex_str.as_ref().to_ascii_lowercase());
 
     use RgbMatch::*;
     match colour {
-        Exact(c) => println!("{} -> {}", hex_str, c.format_dmc()),
+        Exact(c) => println!("#{} -> {}", hex_str, c.format_dmc()),
         Approx(cs) => {
             #[allow(unstable_name_collisions)]
             let dmcs_string = cs
@@ -112,7 +114,7 @@ fn process_hex_str<S: AsRef<str>>(hex_str: S) -> Result<()> {
                 .map(Colour::format_dmc)
                 .intersperse(String::from(", or "))
                 .collect::<String>();
-            println!("{} ~> {}", hex_str, dmcs_string);
+            println!("#{} ~> {}", hex_str, dmcs_string);
         }
     }
     Ok(())

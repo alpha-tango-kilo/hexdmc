@@ -26,7 +26,7 @@ impl fmt::Debug for StrOrNum {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
         use StrOrNum::*;
         match self {
-            S(string) => write!(f, "{:?}", string),
+            S(string) => write!(f, "{:?}", string.to_ascii_lowercase()),
             N(num) => write!(f, "\"{}\"", num),
         }
     }
