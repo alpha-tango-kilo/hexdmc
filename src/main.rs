@@ -83,9 +83,9 @@ fn process_dmc_str<S: AsRef<str>>(dmc_str: S) -> Result<()> {
 // e.g. "123455", "ab34ee", "AF1234"
 fn rgb_from_hex(s: &str) -> Result<Rgb> {
     if s.len() == 6 {
-        let r = u8::from_str_radix(&s[1..3], 16)?;
-        let g = u8::from_str_radix(&s[3..5], 16)?;
-        let b = u8::from_str_radix(&s[5..7], 16)?;
+        let r = u8::from_str_radix(&s[..2], 16)?;
+        let g = u8::from_str_radix(&s[2..4], 16)?;
+        let b = u8::from_str_radix(&s[4..], 16)?;
         Ok([r, g, b])
     } else {
         bail!("not hex string")
