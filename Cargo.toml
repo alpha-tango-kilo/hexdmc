@@ -8,6 +8,7 @@ edition = "2021"
 [dependencies]
 anyhow = "1.0"
 itertools = "0.10"
+owo-colors = "3.2"
 phf = { version = "0.10", features = ["macros"] }
 
 [build-dependencies]

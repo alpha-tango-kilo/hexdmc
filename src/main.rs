@@ -1,9 +1,12 @@
 use anyhow::{anyhow, bail, Context, Result};
 use itertools::Itertools;
+use owo_colors::{DynColors, OwoColorize};
 use phf::{phf_map, Map};
 use std::env;
 
 type Rgb = [u8; 3];
+
+const FULL_BLOCK: char = '█';
 
 struct ColourMap<const N: usize> {
     colours: [Colour; N],
@@ -62,11 +65,22 @@ struct Colour {
 
 impl Colour {
     fn format_dmc(&self) -> String {
-        format!("{} ({})", self.name, self.floss)
+        format!(
+            "{} ({}) {}",
+            self.name,
+            self.floss,
+            FULL_BLOCK.color(self.owo())
+        )
     }
 
     fn format_hex(&self) -> String {
-        format!("#{:02x?}{:02x?}{:02x?}", self.r, self.g, self.b)
+        format!(
+            "#{:02x?}{:02x?}{:02x?} {}",
+            self.r,
+            self.g,
+            self.b,
+            FULL_BLOCK.color(self.owo())
+        )
     }
 
     fn diff(&self, other: Rgb) -> u16 {
@@ -83,6 +97,10 @@ impl Colour {
             .checked_sub(other[2])
             .unwrap_or_else(|| other[2] - self.b);
         r_diff as u16 + g_diff as u16 + b_diff as u16
+    }
+
+    fn owo(&self) -> DynColors {
+        DynColors::Rgb(self.r, self.g, self.b)
     }
 }
 
@@ -106,20 +124,30 @@ fn process_hex_str<S: AsRef<str>>(hex_str: S) -> Result<()> {
 
     use RgbMatch::*;
     match colour {
-        Exact(c) => println!("#{} -> {}", hex_str, c.format_dmc()),
+        Exact(c) => println!(
+            "#{} {} -> {}",
+            hex_str,
+            FULL_BLOCK.color(rgb_owo(rgb)),
+            c.format_dmc()
+        ),
         Approx(cs) => {
             /*
-             FIXME: When iter_intersperse goes stable, make itertools
-              dependency conditional
-             https://github.com/rust-lang/rust/issues/79524
-             */
+            FIXME: When iter_intersperse goes stable, make itertools
+             dependency conditional
+            https://github.com/rust-lang/rust/issues/79524
+            */
             #[allow(unstable_name_collisions)]
             let dmcs_string = cs
                 .into_iter()
                 .map(Colour::format_dmc)
                 .intersperse(String::from(", or "))
                 .collect::<String>();
-            println!("#{} ~> {}", hex_str, dmcs_string);
+            println!(
+                "#{} {} ~> {}",
+                hex_str,
+                FULL_BLOCK.color(rgb_owo(rgb)),
+                dmcs_string
+            );
         }
     }
     Ok(())
@@ -141,6 +169,10 @@ fn rgb_from_hex(s: &str) -> Result<Rgb> {
     } else {
         bail!("not hex string")
     }
+}
+
+fn rgb_owo(rgb: Rgb) -> DynColors {
+    DynColors::Rgb(rgb[0], rgb[1], rgb[2])
 }
 
 // Provides static COLOUR_MAP: ColourMap
