@@ -21,8 +21,10 @@ To update, add the `--force` flag to the above command
 You use a subcommand to specify the type of the colour(s) you're passing; either `dmc` or `hex`, then list any colours, separated by spaces.
 You can't mix & match colour types in a single command
 
+The subcommand `diffdmc` is also provided, which expects to be given DMC flosses, and will produce a list of the five most similar DMC colours
+
 ```
-hexdmc <dmc|hex> [COLOUR] ...
+hexdmc <dmc|hex|diffdmc> [COLOUR] ...
 ```
 
 ## Limitations

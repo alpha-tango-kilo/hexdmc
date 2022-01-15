@@ -48,6 +48,12 @@ impl<const N: usize> ColourMap<N> {
             }
         }
     }
+
+    fn similarity_iter(&self, rgb: Rgb) -> impl Iterator<Item = Colour> + '_ {
+        let mut colours = self.colours;
+        colours.sort_unstable_by_key(|a| a.diff(rgb));
+        colours.into_iter()
+    }
 }
 
 enum RgbMatch<'c> {
@@ -55,6 +61,7 @@ enum RgbMatch<'c> {
     Approx(Vec<&'c Colour>),
 }
 
+#[derive(Copy, Clone)]
 struct Colour {
     floss: &'static str,
     name: &'static str,
@@ -64,6 +71,10 @@ struct Colour {
 }
 
 impl Colour {
+    fn to_rgb(self) -> Rgb {
+        [self.r, self.g, self.b]
+    }
+
     fn format_dmc(&self) -> String {
         format!(
             "{} ({}) {}",
@@ -74,7 +85,7 @@ impl Colour {
     }
 
     fn format_hex(&self) -> String {
-        hex_from_rgb([self.r, self.g, self.b])
+        hex_from_rgb(self.to_rgb())
     }
 
     fn diff(&self, other: Rgb) -> u16 {
@@ -104,6 +115,7 @@ fn main() -> Result<()> {
     let processing_fn = match subcommand.to_ascii_lowercase().as_str() {
         "hex" => match_hex_str,
         "dmc" => match_dmc_str,
+        "diffdmc" => similar_dmc_str,
         _ => bail!("invalid subcommand"),
     };
 
@@ -113,10 +125,10 @@ fn main() -> Result<()> {
 fn match_hex_str<S: AsRef<str>>(hex_str: S) -> Result<()> {
     let rgb = rgb_from_hex(hex_str)?;
     let hex_str = hex_from_rgb(rgb); // standardises format
-    let colour: RgbMatch = COLOUR_MAP.lookup_rgb(rgb);
+    let colour_match = ColourMap::lookup_rgb(&COLOUR_MAP, rgb);
 
     use RgbMatch::*;
-    match colour {
+    match colour_match {
         Exact(c) => println!(
             "{} {} -> {}",
             &hex_str,
@@ -147,8 +159,18 @@ fn match_hex_str<S: AsRef<str>>(hex_str: S) -> Result<()> {
 }
 
 fn match_dmc_str<S: AsRef<str>>(dmc_str: S) -> Result<()> {
-    let colour: &Colour = COLOUR_MAP.lookup_floss(dmc_str.as_ref())?;
+    let colour = ColourMap::lookup_floss(&COLOUR_MAP, dmc_str.as_ref())?;
     println!("{} -> {}", dmc_str.as_ref(), colour.format_hex());
+    Ok(())
+}
+
+fn similar_dmc_str<S: AsRef<str>>(dmc_str: S) -> Result<()> {
+    let colour = ColourMap::lookup_floss(&COLOUR_MAP, dmc_str.as_ref())?;
+    ColourMap::similarity_iter(&COLOUR_MAP, colour.to_rgb())
+        .take(5)
+        .for_each(|c| println!("{} -> {}", c.format_dmc(), c.format_hex(),));
+    // Separates out next cluster when multiple arguments are given
+    println!();
     Ok(())
 }
 
