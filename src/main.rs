@@ -15,6 +15,7 @@ mod error_strings {
         "no subcommand provided. Refer to the README for usage instructions";
     pub const INVALID_SUBCOMMAND: &str = "invalid subcommand";
     pub const INVALID_HEX: &str = "invalid hex colour";
+    pub const BAD_ARG: &str = "Bad argument:";
 }
 
 #[cfg(feature = "insulting")]
@@ -23,6 +24,7 @@ mod error_strings {
     pub const NO_SUBCOMMAND: &str = "this grandma thinks they're too good to tell the program what to do; it should just read your mind";
     pub const INVALID_SUBCOMMAND: &str = "you ever heard of subcommands, you blithering idiot?! Read the README for crying out loud";
     pub const INVALID_HEX: &str = "it's meant to be a hexadecimal colour, it's not that bloody difficult!";
+    pub const BAD_ARG: &str = "What are you doing,";
 }
 
 struct ColourMap<const N: usize> {
@@ -137,7 +139,12 @@ fn main() -> Result<()> {
         _ => bail!(error_strings::INVALID_SUBCOMMAND),
     };
 
-    env::args().skip(2).try_for_each(processing_fn)
+    env::args().skip(2).map(processing_fn).for_each(|result| {
+        if let Err(why) = result {
+            eprintln!("{} {}", error_strings::BAD_ARG, why);
+        }
+    });
+    Ok(())
 }
 
 fn match_hex_str<S: AsRef<str>>(hex_str: S) -> Result<()> {
