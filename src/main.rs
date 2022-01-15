@@ -145,6 +145,13 @@ fn match_hex_str<S: AsRef<str>>(hex_str: S) -> Result<()> {
     let hex_str = hex_from_rgb(rgb); // standardises format
     let colour_match = ColourMap::lookup_rgb(&COLOUR_MAP, rgb);
 
+    #[cfg(feature = "insulting")]
+    match rgb {
+        [0, 0, 0] => eprintln!("You're really asking about black? Really?"),
+        [255, 255, 255] => eprintln!("You can't be the sharpest tool in the shed if you're asking about white"),
+        _ => {}
+    }
+
     use RgbMatch::*;
     match colour_match {
         Exact(c) => println!(
