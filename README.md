@@ -1,5 +1,8 @@
 # HexDMC
 
+[![Codeberg CI](https://ci.codeberg.org/api/badges/alpha-tango-kilo/hexdmc/status.svg)](https://ci.codeberg.org/alpha-tango-kilo/hexdmc)
+[![Dependency status](https://deps.rs/repo/github/alpha-tango-kilo/hexdmc/status.svg)](https://deps.rs/repo/github/alpha-tango-kilo/hexdmc)
+
 `hexdmc` is a commandline tool to convert between DMC flosses and hex colours
 
 ## Installation
