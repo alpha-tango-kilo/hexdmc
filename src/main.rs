@@ -154,12 +154,7 @@ fn match_hex_str<S: AsRef<str>>(hex_str: S) -> Result<()> {
 
     use RgbMatch::*;
     match colour_match {
-        Exact(c) => println!(
-            "{} {} -> {}",
-            &hex_str,
-            FULL_BLOCK.color(rgb_owo(rgb)),
-            c.format_dmc()
-        ),
+        Exact(c) => println!("{} -> {}", &hex_str, c.format_dmc()),
         Approx(cs) => {
             /*
             FIXME: When iter_intersperse goes stable, make itertools
@@ -172,12 +167,7 @@ fn match_hex_str<S: AsRef<str>>(hex_str: S) -> Result<()> {
                 .map(Colour::format_dmc)
                 .intersperse(String::from(", or "))
                 .collect::<String>();
-            println!(
-                "{} {} ~> {}",
-                &hex_str,
-                FULL_BLOCK.color(rgb_owo(rgb)),
-                dmcs_string
-            );
+            println!("{} ~> {}", &hex_str, dmcs_string);
         }
     }
     Ok(())
