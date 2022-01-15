@@ -8,6 +8,23 @@ type Rgb = [u8; 3];
 
 const FULL_BLOCK: char = '█';
 
+#[cfg(not(feature = "insulting"))]
+mod error_strings {
+    pub const INVALID_FLOSS: &str = "invalid floss";
+    pub const NO_SUBCOMMAND: &str =
+        "no subcommand provided. Refer to the README for usage instructions";
+    pub const INVALID_SUBCOMMAND: &str = "invalid subcommand";
+    pub const INVALID_HEX: &str = "invalid hex colour";
+}
+
+#[cfg(feature = "insulting")]
+mod error_strings {
+    pub const INVALID_FLOSS: &str = "that floss doesn't exist, you donkey";
+    pub const NO_SUBCOMMAND: &str = "this grandma thinks they're too good to tell the program what to do; it should just read your mind";
+    pub const INVALID_SUBCOMMAND: &str = "you ever heard of subcommands, you blithering idiot?! Read the README for crying out loud";
+    pub const INVALID_HEX: &str = "it's meant to be a hexadecimal colour, it's not that bloody difficult!";
+}
+
 struct ColourMap<const N: usize> {
     colours: [Colour; N],
     by_floss: Map<&'static str, usize>,
@@ -21,7 +38,7 @@ impl<const N: usize> ColourMap<N> {
         let floss = floss.to_ascii_lowercase();
         match self.by_floss.get(&floss) {
             Some(index) => Ok(&self.colours[*index]),
-            None => Err(anyhow!("invalid floss")),
+            None => Err(anyhow!(error_strings::INVALID_FLOSS)),
         }
     }
 
@@ -110,13 +127,14 @@ impl Colour {
 }
 
 fn main() -> Result<()> {
-    let subcommand = env::args().nth(1).context("No subcommand provided")?;
+    let subcommand =
+        env::args().nth(1).context(error_strings::NO_SUBCOMMAND)?;
 
     let processing_fn = match subcommand.to_ascii_lowercase().as_str() {
         "hex" => match_hex_str,
         "dmc" => match_dmc_str,
         "diffdmc" => similar_dmc_str,
-        _ => bail!("invalid subcommand"),
+        _ => bail!(error_strings::INVALID_SUBCOMMAND),
     };
 
     env::args().skip(2).try_for_each(processing_fn)
@@ -184,7 +202,7 @@ fn rgb_from_hex<S: AsRef<str>>(hex_str: S) -> Result<Rgb> {
         let b = u8::from_str_radix(&hex_digits[4..], 16)?;
         Ok([r, g, b])
     } else {
-        bail!("not hex string")
+        bail!(error_strings::INVALID_HEX)
     }
 }
 

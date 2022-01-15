@@ -16,6 +16,9 @@ cargo install --git https://codeberg.org/alpha-tango-kilo/hexdmc
 
 To update, add the `--force` flag to the above command
 
+If you're not afraid of a poor new-user experience, try installing with the feature "insulting".
+Append `--features insulting` to the end of your install command
+
 ## Usage
 
 You use a subcommand to specify the type of the colour(s) you're passing; either `dmc` or `hex`, then list any colours, separated by spaces.
