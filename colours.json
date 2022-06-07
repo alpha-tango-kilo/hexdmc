@@ -3176,5 +3176,250 @@
     "r": 0,
     "g": 0,
     "b": 0
+  },
+  {
+    "floss": "01",
+    "name": "White Tin",
+    "r": 218,
+    "g": 217,
+    "b": 224
+  },
+  {
+    "floss": "02",
+    "name": "Tin",
+    "r": 195,
+    "g": 194,
+    "b": 199
+  },
+  {
+    "floss": "03",
+    "name": "Medium Tin",
+    "r": 170,
+    "g": 169,
+    "b": 174
+  },
+  {
+    "floss": "04",
+    "name": "Dark Tin",
+    "r": 107,
+    "g": 102,
+    "b": 108
+  },
+  {
+    "floss": "05",
+    "name": "Light Driftwood",
+    "r": 201,
+    "g": 189,
+    "b": 182
+  },
+  {
+    "floss": "06",
+    "name": "Medium Light Driftwood",
+    "r": 184,
+    "g": 171,
+    "b": 164
+  },
+  {
+    "floss": "07",
+    "name": "Driftwood",
+    "r": 128,
+    "g": 110,
+    "b": 96
+  },
+  {
+    "floss": "08",
+    "name": "Dark Driftwood",
+    "r": 80,
+    "g": 57,
+    "b": 44
+  },
+  {
+    "floss": "09",
+    "name": "Very Dark Cocoa",
+    "r": 67,
+    "g": 46,
+    "b": 44
+  },
+  {
+    "floss": 10,
+    "name": "Very Light Tender Green",
+    "r": 226,
+    "g": 221,
+    "b": 199
+  },
+  {
+    "floss": 11,
+    "name": "Light Tender Green",
+    "r": 217,
+    "g": 210,
+    "b": 132
+  },
+  {
+    "floss": 12,
+    "name": "Tender Green",
+    "r": 211,
+    "g": 203,
+    "b": 98
+  },
+  {
+    "floss": 13,
+    "name": "Medium Light Nile Green",
+    "r": 157,
+    "g": 204,
+    "b": 165
+  },
+  {
+    "floss": 14,
+    "name": "Pale Apple Green",
+    "r": 202,
+    "g": 205,
+    "b": 159
+  },
+  {
+    "floss": 15,
+    "name": "Apple Green",
+    "r": 195,
+    "g": 200,
+    "b": 142
+  },
+  {
+    "floss": 16,
+    "name": "Light Chartreuse",
+    "r": 180,
+    "g": 186,
+    "b": 91
+  },
+  {
+    "floss": 17,
+    "name": "Light Yellow Plum",
+    "r": 230,
+    "g": 208,
+    "b": 119
+  },
+  {
+    "floss": 18,
+    "name": "Yellow Plum",
+    "r": 213,
+    "g": 187,
+    "b": 80
+  },
+  {
+    "floss": 19,
+    "name": "Medium Light Autumn Gold",
+    "r": 236,
+    "g": 181,
+    "b": 107
+  },
+  {
+    "floss": 20,
+    "name": "Shrimp",
+    "r": 240,
+    "g": 204,
+    "b": 186
+  },
+  {
+    "floss": 21,
+    "name": "Light Alizarin",
+    "r": 194,
+    "g": 111,
+    "b": 93
+  },
+  {
+    "floss": 22,
+    "name": "Alizarin",
+    "r": 181,
+    "g": 73,
+    "b": 69
+  },
+  {
+    "floss": 23,
+    "name": "Apple Blossom",
+    "r": 238,
+    "g": 225,
+    "b": 229
+  },
+  {
+    "floss": 24,
+    "name": "White Lavander",
+    "r": 214,
+    "g": 210,
+    "b": 218
+  },
+  {
+    "floss": 25,
+    "name": "Ultra Light Lavander",
+    "r": 226,
+    "g": 215,
+    "b": 234
+  },
+  {
+    "floss": 26,
+    "name": "Pale Lavander",
+    "r": 187,
+    "g": 180,
+    "b": 198
+  },
+  {
+    "floss": 27,
+    "name": "White Violet",
+    "r": 217,
+    "g": 217,
+    "b": 221
+  },
+  {
+    "floss": 28,
+    "name": "Medium Light Eggplant",
+    "r": 129,
+    "g": 120,
+    "b": 150
+  },
+  {
+    "floss": 29,
+    "name": "Eggplant",
+    "r": 92,
+    "g": 76,
+    "b": 113
+  },
+  {
+    "floss": 30,
+    "name": "Medium Light Blueberry",
+    "r": 95,
+    "g": 94,
+    "b": 153
+  },
+  {
+    "floss": 31,
+    "name": "Blueberry",
+    "r": 109,
+    "g": 108,
+    "b": 167
+  },
+  {
+    "floss": 32,
+    "name": "Dark Blueberry",
+    "r": 66,
+    "g": 63,
+    "b": 119
+  },
+  {
+    "floss": 33,
+    "name": "Fuchsia",
+    "r": 160,
+    "g": 90,
+    "b": 152
+  },
+  {
+    "floss": 34,
+    "name": "Dark Fuchsia",
+    "r": 131,
+    "g": 51,
+    "b": 107
+  },
+  {
+    "floss": 35,
+    "name": "Very Dark Fuchsia",
+    "r": 94,
+    "g": 31,
+    "b": 60
   }
 ]
