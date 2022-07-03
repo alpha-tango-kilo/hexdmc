@@ -182,7 +182,12 @@ fn match_hex_str<S: AsRef<str>>(hex_str: S) -> Result<()> {
 
 fn match_dmc_str<S: AsRef<str>>(dmc_str: S) -> Result<()> {
     let colour = ColourMap::lookup_floss(&COLOUR_MAP, dmc_str.as_ref())?;
-    println!("{} -> {}", dmc_str.as_ref(), colour.format_hex());
+    println!(
+        "{} ({}) -> {}",
+        colour.name,
+        colour.floss,
+        colour.format_hex()
+    );
     Ok(())
 }
 
