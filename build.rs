@@ -1,8 +1,11 @@
+use std::{
+    env, fmt,
+    fs::File,
+    io::{BufReader, Write},
+    path::Path,
+};
+
 use serde::Deserialize;
-use std::fs::File;
-use std::io::{BufReader, Write};
-use std::path::Path;
-use std::{env, fmt};
 
 #[derive(Debug, Deserialize)]
 struct Colour {

@@ -1,8 +1,9 @@
+use std::env;
+
 use anyhow::{anyhow, bail, Context, Result};
 use itertools::Itertools;
 use owo_colors::{DynColors, OwoColorize};
 use phf::{phf_map, Map};
-use std::env;
 
 type Rgb = [u8; 3];
 
@@ -21,9 +22,14 @@ mod error_strings {
 #[cfg(feature = "insulting")]
 mod error_strings {
     pub const INVALID_FLOSS: &str = "that floss doesn't exist, you donkey";
-    pub const NO_SUBCOMMAND: &str = "this grandma thinks they're too good to tell the program what to do; it should just read your mind";
-    pub const INVALID_SUBCOMMAND: &str = "you ever heard of subcommands, you blithering idiot?! Read the README for crying out loud";
-    pub const INVALID_HEX: &str = "it's meant to be a hexadecimal colour, it's not that bloody difficult!";
+    pub const NO_SUBCOMMAND: &str = "this grandma thinks they're too good to \
+                                     tell the program what to do; it should \
+                                     just read your mind";
+    pub const INVALID_SUBCOMMAND: &str = "you ever heard of subcommands, you \
+                                          blithering idiot?! Read the README \
+                                          for crying out loud";
+    pub const INVALID_HEX: &str = "it's meant to be a hexadecimal colour, \
+                                   it's not that bloody difficult!";
     pub const BAD_ARG: &str = "What are you doing,";
 }
 
@@ -58,13 +64,13 @@ impl<const N: usize> ColourMap<N> {
                         Less => {
                             min_diff = diff;
                             closest = vec![c];
-                        }
+                        },
                         Equal => closest.push(c),
-                        Greater => {}
+                        Greater => {},
                     }
                 });
                 Approx(closest)
-            }
+            },
         }
     }
 
@@ -155,8 +161,11 @@ fn match_hex_str<S: AsRef<str>>(hex_str: S) -> Result<()> {
     #[cfg(feature = "insulting")]
     match rgb {
         [0, 0, 0] => eprintln!("You're really asking about black? Really?"),
-        [255, 255, 255] => eprintln!("You can't be the sharpest tool in the shed if you're asking about white"),
-        _ => {}
+        [255, 255, 255] => eprintln!(
+            "You can't be the sharpest tool in the shed if you're asking \
+             about white"
+        ),
+        _ => {},
     }
 
     use RgbMatch::*;
@@ -175,7 +184,7 @@ fn match_hex_str<S: AsRef<str>>(hex_str: S) -> Result<()> {
                 .intersperse(String::from(", or "))
                 .collect::<String>();
             println!("{} ~> {}", &hex_str, dmcs_string);
-        }
+        },
     }
     Ok(())
 }
