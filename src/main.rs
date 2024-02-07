@@ -3,7 +3,7 @@ use std::env;
 use anyhow::{anyhow, bail, Context, Result};
 use itertools::Itertools;
 use owo_colors::{DynColors, OwoColorize};
-use phf::{phf_map, Map};
+use phf::Map;
 
 type Rgb = [u8; 3];
 

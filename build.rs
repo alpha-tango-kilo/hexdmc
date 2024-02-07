@@ -50,7 +50,7 @@ fn main() {
         r#"
         static COLOUR_MAP: ColourMap<{}> = ColourMap {{
             colours: {:#?},
-            by_floss: phf_map! {{
+            by_floss: ::phf::phf_map! {{
         "#,
         colours.len(),
         &colours,
@@ -66,7 +66,7 @@ fn main() {
         )
         .unwrap();
 
-    writeln!(&mut output, "}},\nby_rgb: phf_map! {{").unwrap();
+    writeln!(&mut output, "}},\nby_rgb: ::phf::phf_map! {{").unwrap();
 
     // by_rgb
     colours
