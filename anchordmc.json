@@ -1,0 +1,3047 @@
+[
+  {
+    "anchor": 1,
+    "dmc_name": "White",
+    "human_name": "white"
+  },
+  {
+    "anchor": 1,
+    "dmc_name": "B5200",
+    "human_name": "snow white"
+  },
+  {
+    "anchor": 2,
+    "dmc_name": "White",
+    "human_name": "white"
+  },
+  {
+    "anchor": 2,
+    "dmc_name": "3865",
+    "human_name": "winter white"
+  },
+  {
+    "anchor": 6,
+    "dmc_name": "353",
+    "human_name": "peach"
+  },
+  {
+    "anchor": 8,
+    "dmc_name": "3824",
+    "human_name": "lt apricot"
+  },
+  {
+    "anchor": 9,
+    "dmc_name": "352",
+    "human_name": "lt coral"
+  },
+  {
+    "anchor": 10,
+    "dmc_name": "351",
+    "human_name": "coral"
+  },
+  {
+    "anchor": 11,
+    "dmc_name": "350",
+    "human_name": "md coral"
+  },
+  {
+    "anchor": 13,
+    "dmc_name": "349",
+    "human_name": "dk coral"
+  },
+  {
+    "anchor": 13,
+    "dmc_name": "817",
+    "human_name": "vy dk coral red"
+  },
+  {
+    "anchor": 19,
+    "dmc_name": "321",
+    "human_name": "red"
+  },
+  {
+    "anchor": 20,
+    "dmc_name": "816",
+    "human_name": "garnet"
+  },
+  {
+    "anchor": 22,
+    "dmc_name": "815",
+    "human_name": "md garnet"
+  },
+  {
+    "anchor": 22,
+    "dmc_name": "902",
+    "human_name": "vy dk garnet"
+  },
+  {
+    "anchor": 23,
+    "dmc_name": "151",
+    "human_name": "vy lt dustry rose"
+  },
+  {
+    "anchor": 23,
+    "dmc_name": "963",
+    "human_name": "ul vy lt dusty rose"
+  },
+  {
+    "anchor": 24,
+    "dmc_name": "776",
+    "human_name": "md pink"
+  },
+  {
+    "anchor": 25,
+    "dmc_name": "3716",
+    "human_name": "vy lt dusty rose"
+  },
+  {
+    "anchor": 26,
+    "dmc_name": "894",
+    "human_name": "vy lt carnation"
+  },
+  {
+    "anchor": 27,
+    "dmc_name": "893",
+    "human_name": "lt carnation"
+  },
+  {
+    "anchor": 28,
+    "dmc_name": "956",
+    "human_name": "geranium"
+  },
+  {
+    "anchor": 29,
+    "dmc_name": "891",
+    "human_name": "dk carnation"
+  },
+  {
+    "anchor": 31,
+    "dmc_name": "3708",
+    "human_name": "lt melon"
+  },
+  {
+    "anchor": 33,
+    "dmc_name": "3706",
+    "human_name": "md melon"
+  },
+  {
+    "anchor": 33,
+    "dmc_name": "892",
+    "human_name": "md carnation"
+  },
+  {
+    "anchor": 35,
+    "dmc_name": "3705",
+    "human_name": "dk melon"
+  },
+  {
+    "anchor": 35,
+    "dmc_name": "891",
+    "human_name": "dk carnation"
+  },
+  {
+    "anchor": 36,
+    "dmc_name": "3326",
+    "human_name": "lt rose"
+  },
+  {
+    "anchor": 38,
+    "dmc_name": "956",
+    "human_name": "geranium"
+  },
+  {
+    "anchor": 39,
+    "dmc_name": "3832",
+    "human_name": "md raspberry"
+  },
+  {
+    "anchor": 40,
+    "dmc_name": "956",
+    "human_name": "geranium"
+  },
+  {
+    "anchor": 41,
+    "dmc_name": "893",
+    "human_name": "lt carnation"
+  },
+  {
+    "anchor": 42,
+    "dmc_name": "309",
+    "human_name": "dk rose"
+  },
+  {
+    "anchor": 42,
+    "dmc_name": "3831",
+    "human_name": "dk raspberry"
+  },
+  {
+    "anchor": 43,
+    "dmc_name": "815",
+    "human_name": "md garnet"
+  },
+  {
+    "anchor": 44,
+    "dmc_name": "815",
+    "human_name": "md garnet"
+  },
+  {
+    "anchor": 45,
+    "dmc_name": "814",
+    "human_name": "dk garnet"
+  },
+  {
+    "anchor": 46,
+    "dmc_name": "666",
+    "human_name": "bright red"
+  },
+  {
+    "anchor": 47,
+    "dmc_name": "321",
+    "human_name": "red"
+  },
+  {
+    "anchor": 48,
+    "dmc_name": "963",
+    "human_name": "ul vy lt dusty rose"
+  },
+  {
+    "anchor": 49,
+    "dmc_name": "3689",
+    "human_name": "lt mauve"
+  },
+  {
+    "anchor": 50,
+    "dmc_name": "957",
+    "human_name": "pale geranium"
+  },
+  {
+    "anchor": 52,
+    "dmc_name": "899",
+    "human_name": "md rose"
+  },
+  {
+    "anchor": 54,
+    "dmc_name": "956",
+    "human_name": "geranium"
+  },
+  {
+    "anchor": 55,
+    "dmc_name": "603",
+    "human_name": "cranberry"
+  },
+  {
+    "anchor": 55,
+    "dmc_name": "604",
+    "human_name": "lt cranberry"
+  },
+  {
+    "anchor": 57,
+    "dmc_name": "601",
+    "human_name": "dk cranberry"
+  },
+  {
+    "anchor": 57,
+    "dmc_name": "602",
+    "human_name": "md cranberry"
+  },
+  {
+    "anchor": 59,
+    "dmc_name": "150",
+    "human_name": "ul vy dk dustry rose"
+  },
+  {
+    "anchor": 59,
+    "dmc_name": "150",
+    "human_name": "ul vy dk dustry rose"
+  },
+  {
+    "anchor": 59,
+    "dmc_name": "326",
+    "human_name": "vy dk rose"
+  },
+  {
+    "anchor": 59,
+    "dmc_name": "3350",
+    "human_name": "ul dk dusty rose"
+  },
+  {
+    "anchor": 59,
+    "dmc_name": "3831",
+    "human_name": "dk raspberry"
+  },
+  {
+    "anchor": 59,
+    "dmc_name": "600",
+    "human_name": "vy dk cranberry"
+  },
+  {
+    "anchor": 60,
+    "dmc_name": "3688",
+    "human_name": "md mauve"
+  },
+  {
+    "anchor": 62,
+    "dmc_name": "3805",
+    "human_name": "cyclamen pink"
+  },
+  {
+    "anchor": 62,
+    "dmc_name": "3806",
+    "human_name": "lt cyclamen pink"
+  },
+  {
+    "anchor": 62,
+    "dmc_name": "603",
+    "human_name": "cranberry"
+  },
+  {
+    "anchor": 63,
+    "dmc_name": "3804",
+    "human_name": "dk cyclamen pink"
+  },
+  {
+    "anchor": 63,
+    "dmc_name": "602",
+    "human_name": "md cranberry"
+  },
+  {
+    "anchor": 65,
+    "dmc_name": "3350",
+    "human_name": "ul dk dusty rose"
+  },
+  {
+    "anchor": 65,
+    "dmc_name": "777",
+    "human_name": "vy dk Raspberry"
+  },
+  {
+    "anchor": 66,
+    "dmc_name": "3688",
+    "human_name": "md mauve"
+  },
+  {
+    "anchor": 68,
+    "dmc_name": "3687",
+    "human_name": "mauve"
+  },
+  {
+    "anchor": 69,
+    "dmc_name": "3803",
+    "human_name": "dk mauve"
+  },
+  {
+    "anchor": 70,
+    "dmc_name": "3685",
+    "human_name": "vy dk mauve"
+  },
+  {
+    "anchor": 72,
+    "dmc_name": "902",
+    "human_name": "vy dk garnet"
+  },
+  {
+    "anchor": 73,
+    "dmc_name": "818",
+    "human_name": "baby pink"
+  },
+  {
+    "anchor": 73,
+    "dmc_name": "963",
+    "human_name": "ul vy lt dusty rose"
+  },
+  {
+    "anchor": 74,
+    "dmc_name": "3354",
+    "human_name": "lt dusty rose"
+  },
+  {
+    "anchor": 74,
+    "dmc_name": "605",
+    "human_name": "vy lt cranberry"
+  },
+  {
+    "anchor": 75,
+    "dmc_name": "3733",
+    "human_name": "dusty rose"
+  },
+  {
+    "anchor": 75,
+    "dmc_name": "962",
+    "human_name": "md dusty rose"
+  },
+  {
+    "anchor": 76,
+    "dmc_name": "3731",
+    "human_name": "vy dk dusty rose"
+  },
+  {
+    "anchor": 76,
+    "dmc_name": "3833",
+    "human_name": "lt raspberry"
+  },
+  {
+    "anchor": 76,
+    "dmc_name": "961",
+    "human_name": "dk dusty rose"
+  },
+  {
+    "anchor": 77,
+    "dmc_name": "3687",
+    "human_name": "mauve"
+  },
+  {
+    "anchor": 78,
+    "dmc_name": "917",
+    "human_name": "md plum"
+  },
+  {
+    "anchor": 79,
+    "dmc_name": "3687",
+    "human_name": "mauve"
+  },
+  {
+    "anchor": 85,
+    "dmc_name": "3609",
+    "human_name": "ul lt plum"
+  },
+  {
+    "anchor": 86,
+    "dmc_name": "3608",
+    "human_name": "vy lt plum"
+  },
+  {
+    "anchor": 87,
+    "dmc_name": "3607",
+    "human_name": "lt plum"
+  },
+  {
+    "anchor": 88,
+    "dmc_name": "718",
+    "human_name": "plum"
+  },
+  {
+    "anchor": 89,
+    "dmc_name": "917",
+    "human_name": "md plum"
+  },
+  {
+    "anchor": 90,
+    "dmc_name": "3836",
+    "human_name": "lt grape"
+  },
+  {
+    "anchor": 92,
+    "dmc_name": "553",
+    "human_name": "violet"
+  },
+  {
+    "anchor": 94,
+    "dmc_name": "917",
+    "human_name": "md plum"
+  },
+  {
+    "anchor": 95,
+    "dmc_name": "153",
+    "human_name": "vy lt violet"
+  },
+  {
+    "anchor": 96,
+    "dmc_name": "554",
+    "human_name": "lt violet"
+  },
+  {
+    "anchor": 97,
+    "dmc_name": "554",
+    "human_name": "lt violet"
+  },
+  {
+    "anchor": 98,
+    "dmc_name": "3835",
+    "human_name": "md grape"
+  },
+  {
+    "anchor": 98,
+    "dmc_name": "553",
+    "human_name": "violet"
+  },
+  {
+    "anchor": 99,
+    "dmc_name": "552",
+    "human_name": "md violet"
+  },
+  {
+    "anchor": 100,
+    "dmc_name": "327",
+    "human_name": "dk violet"
+  },
+  {
+    "anchor": 100,
+    "dmc_name": "3834",
+    "human_name": "dk grape"
+  },
+  {
+    "anchor": 100,
+    "dmc_name": "3837",
+    "human_name": "ul dk lavender"
+  },
+  {
+    "anchor": 101,
+    "dmc_name": "550",
+    "human_name": "vy dk violet"
+  },
+  {
+    "anchor": 102,
+    "dmc_name": "550",
+    "human_name": "vy dk violet"
+  },
+  {
+    "anchor": 103,
+    "dmc_name": "153",
+    "human_name": "vy lt violet"
+  },
+  {
+    "anchor": 108,
+    "dmc_name": "210",
+    "human_name": "md lavender"
+  },
+  {
+    "anchor": 109,
+    "dmc_name": "209",
+    "human_name": "Dk Lavender"
+  },
+  {
+    "anchor": 110,
+    "dmc_name": "333",
+    "human_name": "vy dk blue violet"
+  },
+  {
+    "anchor": 111,
+    "dmc_name": "208",
+    "human_name": "vy dk lavender"
+  },
+  {
+    "anchor": 112,
+    "dmc_name": "3837",
+    "human_name": "ul dk lavender"
+  },
+  {
+    "anchor": 117,
+    "dmc_name": "341",
+    "human_name": "lt blue violet"
+  },
+  {
+    "anchor": 117,
+    "dmc_name": "3840",
+    "human_name": "lt lavender blue"
+  },
+  {
+    "anchor": 118,
+    "dmc_name": "156",
+    "human_name": "md lt blue violet"
+  },
+  {
+    "anchor": 118,
+    "dmc_name": "340",
+    "human_name": "md blue violet"
+  },
+  {
+    "anchor": 119,
+    "dmc_name": "333",
+    "human_name": "vy dk blue violet"
+  },
+  {
+    "anchor": 120,
+    "dmc_name": "157",
+    "human_name": "vy lt cornflower blue"
+  },
+  {
+    "anchor": 120,
+    "dmc_name": "159",
+    "human_name": "lt gray blue"
+  },
+  {
+    "anchor": 120,
+    "dmc_name": "3747",
+    "human_name": "vy lt blue violet"
+  },
+  {
+    "anchor": 121,
+    "dmc_name": "794",
+    "human_name": "lt cornflower blue"
+  },
+  {
+    "anchor": 121,
+    "dmc_name": "809",
+    "human_name": "delft blue"
+  },
+  {
+    "anchor": 122,
+    "dmc_name": "3807",
+    "human_name": "cornflower blue"
+  },
+  {
+    "anchor": 123,
+    "dmc_name": "158",
+    "human_name": "md vy dk cornflower blue"
+  },
+  {
+    "anchor": 123,
+    "dmc_name": "791",
+    "human_name": "vy dk cornflower blue"
+  },
+  {
+    "anchor": 127,
+    "dmc_name": "823",
+    "human_name": "dk navy blue"
+  },
+  {
+    "anchor": 128,
+    "dmc_name": "775",
+    "human_name": "vy lt baby blue"
+  },
+  {
+    "anchor": 129,
+    "dmc_name": "3325",
+    "human_name": "lt baby blue"
+  },
+  {
+    "anchor": 130,
+    "dmc_name": "809",
+    "human_name": "delft blue"
+  },
+  {
+    "anchor": 131,
+    "dmc_name": "798",
+    "human_name": "dk delft blue"
+  },
+  {
+    "anchor": 132,
+    "dmc_name": "797",
+    "human_name": "royal blue"
+  },
+  {
+    "anchor": 133,
+    "dmc_name": "796",
+    "human_name": "dk royal blue"
+  },
+  {
+    "anchor": 134,
+    "dmc_name": "820",
+    "human_name": "vy dk royal blue"
+  },
+  {
+    "anchor": 136,
+    "dmc_name": "799",
+    "human_name": "md delft blue"
+  },
+  {
+    "anchor": 137,
+    "dmc_name": "3838",
+    "human_name": "dk lavender blue"
+  },
+  {
+    "anchor": 137,
+    "dmc_name": "798",
+    "human_name": "dk delft blue"
+  },
+  {
+    "anchor": 139,
+    "dmc_name": "797",
+    "human_name": "royal blue"
+  },
+  {
+    "anchor": 140,
+    "dmc_name": "3755",
+    "human_name": "baby blue"
+  },
+  {
+    "anchor": 142,
+    "dmc_name": "798",
+    "human_name": "dk delft blue"
+  },
+  {
+    "anchor": 143,
+    "dmc_name": "797",
+    "human_name": "royal blue"
+  },
+  {
+    "anchor": 144,
+    "dmc_name": "800",
+    "human_name": "pale delft blue"
+  },
+  {
+    "anchor": 145,
+    "dmc_name": "799",
+    "human_name": "md delft blue"
+  },
+  {
+    "anchor": 146,
+    "dmc_name": "798",
+    "human_name": "dk delft blue"
+  },
+  {
+    "anchor": 147,
+    "dmc_name": "797",
+    "human_name": "royal blue"
+  },
+  {
+    "anchor": 148,
+    "dmc_name": "311",
+    "human_name": "md navy blue"
+  },
+  {
+    "anchor": 149,
+    "dmc_name": "803",
+    "human_name": "ul vy dk baby blue"
+  },
+  {
+    "anchor": 150,
+    "dmc_name": "336",
+    "human_name": "navy blue"
+  },
+  {
+    "anchor": 152,
+    "dmc_name": "823",
+    "human_name": "dk navy blue"
+  },
+  {
+    "anchor": 152,
+    "dmc_name": "939",
+    "human_name": "vy dk navy blue"
+  },
+  {
+    "anchor": 158,
+    "dmc_name": "747",
+    "human_name": "vy lt sky blue"
+  },
+  {
+    "anchor": 159,
+    "dmc_name": "162",
+    "human_name": "ul vy lt blue"
+  },
+  {
+    "anchor": 160,
+    "dmc_name": "827",
+    "human_name": "vy lt blue"
+  },
+  {
+    "anchor": 161,
+    "dmc_name": "813",
+    "human_name": "lt blue"
+  },
+  {
+    "anchor": 161,
+    "dmc_name": "826",
+    "human_name": "md blue"
+  },
+  {
+    "anchor": 162,
+    "dmc_name": "517",
+    "human_name": "dk wedgewood"
+  },
+  {
+    "anchor": 162,
+    "dmc_name": "825",
+    "human_name": "dk blue"
+  },
+  {
+    "anchor": 164,
+    "dmc_name": "3842",
+    "human_name": "dk wedgwood"
+  },
+  {
+    "anchor": 164,
+    "dmc_name": "824",
+    "human_name": "vy dk blue"
+  },
+  {
+    "anchor": 167,
+    "dmc_name": "3766",
+    "human_name": "lt peacock blue"
+  },
+  {
+    "anchor": 168,
+    "dmc_name": "807",
+    "human_name": "peacock blue"
+  },
+  {
+    "anchor": 169,
+    "dmc_name": "3760",
+    "human_name": "md wedgewood"
+  },
+  {
+    "anchor": 169,
+    "dmc_name": "806",
+    "human_name": "dk peacock blue"
+  },
+  {
+    "anchor": 170,
+    "dmc_name": "3765",
+    "human_name": "vy dk peacock blue"
+  },
+  {
+    "anchor": 175,
+    "dmc_name": "160",
+    "human_name": "md gray blue"
+  },
+  {
+    "anchor": 175,
+    "dmc_name": "794",
+    "human_name": "lt cornflower blue"
+  },
+  {
+    "anchor": 176,
+    "dmc_name": "161",
+    "human_name": "gray blue"
+  },
+  {
+    "anchor": 176,
+    "dmc_name": "3839",
+    "human_name": "md lavender blue"
+  },
+  {
+    "anchor": 176,
+    "dmc_name": "793",
+    "human_name": "md cornflower blue"
+  },
+  {
+    "anchor": 177,
+    "dmc_name": "792",
+    "human_name": "dk cornflower blue"
+  },
+  {
+    "anchor": 178,
+    "dmc_name": "158",
+    "human_name": "md vy dk cornflower blue"
+  },
+  {
+    "anchor": 178,
+    "dmc_name": "791",
+    "human_name": "vy dk cornflower blue"
+  },
+  {
+    "anchor": 185,
+    "dmc_name": "959",
+    "human_name": "md seagreen"
+  },
+  {
+    "anchor": 185,
+    "dmc_name": "993",
+    "human_name": "vy lt aquamarine"
+  },
+  {
+    "anchor": 186,
+    "dmc_name": "959",
+    "human_name": "md seagreen"
+  },
+  {
+    "anchor": 187,
+    "dmc_name": "3851",
+    "human_name": "lt bright green"
+  },
+  {
+    "anchor": 187,
+    "dmc_name": "958",
+    "human_name": "dk seagreen"
+  },
+  {
+    "anchor": 188,
+    "dmc_name": "3812",
+    "human_name": "vy dk seagreen"
+  },
+  {
+    "anchor": 188,
+    "dmc_name": "943",
+    "human_name": "md aquamarine"
+  },
+  {
+    "anchor": 189,
+    "dmc_name": "3850",
+    "human_name": "dk bright green"
+  },
+  {
+    "anchor": 203,
+    "dmc_name": "954",
+    "human_name": "nile green"
+  },
+  {
+    "anchor": 204,
+    "dmc_name": "913",
+    "human_name": "md nile green"
+  },
+  {
+    "anchor": 205,
+    "dmc_name": "911",
+    "human_name": "md emerald green"
+  },
+  {
+    "anchor": 206,
+    "dmc_name": "564",
+    "human_name": "vy lt jade"
+  },
+  {
+    "anchor": 206,
+    "dmc_name": "955",
+    "human_name": "lt nile green"
+  },
+  {
+    "anchor": 206,
+    "dmc_name": "966",
+    "human_name": "md baby green"
+  },
+  {
+    "anchor": 208,
+    "dmc_name": "563",
+    "human_name": "lt jade"
+  },
+  {
+    "anchor": 209,
+    "dmc_name": "912",
+    "human_name": "lt emerald green"
+  },
+  {
+    "anchor": 210,
+    "dmc_name": "505",
+    "human_name": "jade green"
+  },
+  {
+    "anchor": 210,
+    "dmc_name": "562",
+    "human_name": "md jade"
+  },
+  {
+    "anchor": 211,
+    "dmc_name": "700",
+    "human_name": "bright green"
+  },
+  {
+    "anchor": 212,
+    "dmc_name": "561",
+    "human_name": "vy dk jade"
+  },
+  {
+    "anchor": 213,
+    "dmc_name": "504",
+    "human_name": "vy lt blue green"
+  },
+  {
+    "anchor": 214,
+    "dmc_name": "368",
+    "human_name": "lt pistachio green"
+  },
+  {
+    "anchor": 215,
+    "dmc_name": "320",
+    "human_name": "md pistachio green"
+  },
+  {
+    "anchor": 216,
+    "dmc_name": "562",
+    "human_name": "md jade"
+  },
+  {
+    "anchor": 217,
+    "dmc_name": "367",
+    "human_name": "dk pistachio green"
+  },
+  {
+    "anchor": 218,
+    "dmc_name": "319",
+    "human_name": "vy dkpistachio green"
+  },
+  {
+    "anchor": 218,
+    "dmc_name": "890",
+    "human_name": "ul dk pistachio green"
+  },
+  {
+    "anchor": 219,
+    "dmc_name": "3813",
+    "human_name": "lt blue green"
+  },
+  {
+    "anchor": 221,
+    "dmc_name": "502",
+    "human_name": "blue green"
+  },
+  {
+    "anchor": 224,
+    "dmc_name": "3818",
+    "human_name": "ul vy dk emerald greene"
+  },
+  {
+    "anchor": 225,
+    "dmc_name": "702",
+    "human_name": "kelly green"
+  },
+  {
+    "anchor": 226,
+    "dmc_name": "702",
+    "human_name": "kelly green"
+  },
+  {
+    "anchor": 227,
+    "dmc_name": "701",
+    "human_name": "lt green"
+  },
+  {
+    "anchor": 228,
+    "dmc_name": "700",
+    "human_name": "bright green"
+  },
+  {
+    "anchor": 229,
+    "dmc_name": "910",
+    "human_name": "dk emerald green"
+  },
+  {
+    "anchor": 230,
+    "dmc_name": "909",
+    "human_name": "vy dk emerald green"
+  },
+  {
+    "anchor": 231,
+    "dmc_name": "453",
+    "human_name": "lt shell gray"
+  },
+  {
+    "anchor": 232,
+    "dmc_name": "452",
+    "human_name": "md shell gray"
+  },
+  {
+    "anchor": 233,
+    "dmc_name": "451",
+    "human_name": "dk shell gray"
+  },
+  {
+    "anchor": 234,
+    "dmc_name": "762",
+    "human_name": "vy lt pearl gray"
+  },
+  {
+    "anchor": 235,
+    "dmc_name": "414",
+    "human_name": "dk steel gray"
+  },
+  {
+    "anchor": 236,
+    "dmc_name": "3799",
+    "human_name": "vy dk pewter gray"
+  },
+  {
+    "anchor": 236,
+    "dmc_name": "413",
+    "human_name": "dk pewter gray"
+  },
+  {
+    "anchor": 237,
+    "dmc_name": "704",
+    "human_name": "bright chartreuse"
+  },
+  {
+    "anchor": 238,
+    "dmc_name": "703",
+    "human_name": "chartreuse"
+  },
+  {
+    "anchor": 239,
+    "dmc_name": "702",
+    "human_name": "kelly green"
+  },
+  {
+    "anchor": 240,
+    "dmc_name": "164",
+    "human_name": "lt forest green"
+  },
+  {
+    "anchor": 241,
+    "dmc_name": "989",
+    "human_name": "forest green"
+  },
+  {
+    "anchor": 242,
+    "dmc_name": "989",
+    "human_name": "forest green"
+  },
+  {
+    "anchor": 243,
+    "dmc_name": "988",
+    "human_name": "md forest green"
+  },
+  {
+    "anchor": 244,
+    "dmc_name": "987",
+    "human_name": "dk forest green"
+  },
+  {
+    "anchor": 245,
+    "dmc_name": "987",
+    "human_name": "dk forest green"
+  },
+  {
+    "anchor": 246,
+    "dmc_name": "986",
+    "human_name": "vy dk forest green"
+  },
+  {
+    "anchor": 253,
+    "dmc_name": "14",
+    "human_name": "apple green pale"
+  },
+  {
+    "anchor": 253,
+    "dmc_name": "472",
+    "human_name": "ul lt avocado green"
+  },
+  {
+    "anchor": 254,
+    "dmc_name": "472",
+    "human_name": "ul lt avocado green"
+  },
+  {
+    "anchor": 255,
+    "dmc_name": "907",
+    "human_name": "lt parrot green"
+  },
+  {
+    "anchor": 256,
+    "dmc_name": "704",
+    "human_name": "bright chartreuse"
+  },
+  {
+    "anchor": 256,
+    "dmc_name": "906",
+    "human_name": "md parrot green"
+  },
+  {
+    "anchor": 257,
+    "dmc_name": "905",
+    "human_name": "dk parrot green"
+  },
+  {
+    "anchor": 258,
+    "dmc_name": "904",
+    "human_name": "vy dk parrot green"
+  },
+  {
+    "anchor": 259,
+    "dmc_name": "772",
+    "human_name": "vy lt yellow green"
+  },
+  {
+    "anchor": 260,
+    "dmc_name": "3364",
+    "human_name": "pine green"
+  },
+  {
+    "anchor": 261,
+    "dmc_name": "3053",
+    "human_name": "green gray"
+  },
+  {
+    "anchor": 262,
+    "dmc_name": "3052",
+    "human_name": "md green gray"
+  },
+  {
+    "anchor": 262,
+    "dmc_name": "3363",
+    "human_name": "md pine green"
+  },
+  {
+    "anchor": 263,
+    "dmc_name": "3362",
+    "human_name": "dk pine green"
+  },
+  {
+    "anchor": 264,
+    "dmc_name": "3348",
+    "human_name": "lt yellow green"
+  },
+  {
+    "anchor": 264,
+    "dmc_name": "772",
+    "human_name": "vy lt yellow green"
+  },
+  {
+    "anchor": 265,
+    "dmc_name": "471",
+    "human_name": "vy lt avocado green"
+  },
+  {
+    "anchor": 266,
+    "dmc_name": "3347",
+    "human_name": "md yellow green"
+  },
+  {
+    "anchor": 266,
+    "dmc_name": "471",
+    "human_name": "vy lt avocado green"
+  },
+  {
+    "anchor": 267,
+    "dmc_name": "3346",
+    "human_name": "hunter green"
+  },
+  {
+    "anchor": 267,
+    "dmc_name": "469",
+    "human_name": "avocado green"
+  },
+  {
+    "anchor": 267,
+    "dmc_name": "470",
+    "human_name": "lt avocado green"
+  },
+  {
+    "anchor": 268,
+    "dmc_name": "3345",
+    "human_name": "dk hunter green"
+  },
+  {
+    "anchor": 268,
+    "dmc_name": "3346",
+    "human_name": "hunter green"
+  },
+  {
+    "anchor": 268,
+    "dmc_name": "937",
+    "human_name": "md avocado green"
+  },
+  {
+    "anchor": 269,
+    "dmc_name": "936",
+    "human_name": "vy dk avocado green"
+  },
+  {
+    "anchor": 271,
+    "dmc_name": "819",
+    "human_name": "lt baby pink"
+  },
+  {
+    "anchor": 273,
+    "dmc_name": "3787",
+    "human_name": "dk brown gray"
+  },
+  {
+    "anchor": 273,
+    "dmc_name": "645",
+    "human_name": "vy dk beaver gray"
+  },
+  {
+    "anchor": 274,
+    "dmc_name": "3752",
+    "human_name": "vy lt antique blue"
+  },
+  {
+    "anchor": 274,
+    "dmc_name": "928",
+    "human_name": "vy lt gray green"
+  },
+  {
+    "anchor": 275,
+    "dmc_name": "746",
+    "human_name": "off white"
+  },
+  {
+    "anchor": 276,
+    "dmc_name": "543",
+    "human_name": "ul vy lt beige brown"
+  },
+  {
+    "anchor": 276,
+    "dmc_name": "739",
+    "human_name": "ul vy lt tan"
+  },
+  {
+    "anchor": 277,
+    "dmc_name": "830",
+    "human_name": "dk golden olive"
+  },
+  {
+    "anchor": 277,
+    "dmc_name": "831",
+    "human_name": "md golden olive"
+  },
+  {
+    "anchor": 278,
+    "dmc_name": "165",
+    "human_name": "vy lt moss green"
+  },
+  {
+    "anchor": 278,
+    "dmc_name": "3819",
+    "human_name": "lt moss green"
+  },
+  {
+    "anchor": 279,
+    "dmc_name": "734",
+    "human_name": "lt olive green"
+  },
+  {
+    "anchor": 280,
+    "dmc_name": "166",
+    "human_name": "md lt moss green"
+  },
+  {
+    "anchor": 280,
+    "dmc_name": "581",
+    "human_name": "moss green"
+  },
+  {
+    "anchor": 280,
+    "dmc_name": "733",
+    "human_name": "md olive green"
+  },
+  {
+    "anchor": 281,
+    "dmc_name": "580",
+    "human_name": "dk moss green"
+  },
+  {
+    "anchor": 281,
+    "dmc_name": "732",
+    "human_name": "olive green"
+  },
+  {
+    "anchor": 288,
+    "dmc_name": "445",
+    "human_name": "lt lemon"
+  },
+  {
+    "anchor": 289,
+    "dmc_name": "307",
+    "human_name": "lemon"
+  },
+  {
+    "anchor": 290,
+    "dmc_name": "444",
+    "human_name": "dk lemon"
+  },
+  {
+    "anchor": 291,
+    "dmc_name": "444",
+    "human_name": "dk lemon"
+  },
+  {
+    "anchor": 292,
+    "dmc_name": "3078",
+    "human_name": "vy lt golden yellow"
+  },
+  {
+    "anchor": 293,
+    "dmc_name": "727",
+    "human_name": "vy lt topaz"
+  },
+  {
+    "anchor": 295,
+    "dmc_name": "3822",
+    "human_name": "lt straw"
+  },
+  {
+    "anchor": 295,
+    "dmc_name": "726",
+    "human_name": "lt topaz"
+  },
+  {
+    "anchor": 297,
+    "dmc_name": "973",
+    "human_name": "bright canary"
+  },
+  {
+    "anchor": 298,
+    "dmc_name": "972",
+    "human_name": "deep canary"
+  },
+  {
+    "anchor": 300,
+    "dmc_name": "745",
+    "human_name": "lt pale yellow"
+  },
+  {
+    "anchor": 301,
+    "dmc_name": "743",
+    "human_name": "pale yellow"
+  },
+  {
+    "anchor": 301,
+    "dmc_name": "744",
+    "human_name": "pale yellow"
+  },
+  {
+    "anchor": 302,
+    "dmc_name": "743",
+    "human_name": "md yellow"
+  },
+  {
+    "anchor": 303,
+    "dmc_name": "742",
+    "human_name": "lt tangerine"
+  },
+  {
+    "anchor": 304,
+    "dmc_name": "741",
+    "human_name": "md tangerine"
+  },
+  {
+    "anchor": 305,
+    "dmc_name": "3821",
+    "human_name": "straw"
+  },
+  {
+    "anchor": 305,
+    "dmc_name": "725",
+    "human_name": "md lt topaz"
+  },
+  {
+    "anchor": 305,
+    "dmc_name": "728",
+    "human_name": "topaz"
+  },
+  {
+    "anchor": 306,
+    "dmc_name": "3820",
+    "human_name": "dk straw"
+  },
+  {
+    "anchor": 306,
+    "dmc_name": "3852",
+    "human_name": "vy dk straw"
+  },
+  {
+    "anchor": 306,
+    "dmc_name": "783",
+    "human_name": "md topaz"
+  },
+  {
+    "anchor": 307,
+    "dmc_name": "782",
+    "human_name": "dk topaz"
+  },
+  {
+    "anchor": 308,
+    "dmc_name": "781",
+    "human_name": "vy dk topaz"
+  },
+  {
+    "anchor": 309,
+    "dmc_name": "780",
+    "human_name": "ul vy dk topaz"
+  },
+  {
+    "anchor": 310,
+    "dmc_name": "434",
+    "human_name": "lt brown"
+  },
+  {
+    "anchor": 311,
+    "dmc_name": "3827",
+    "human_name": "pale golden brown"
+  },
+  {
+    "anchor": 311,
+    "dmc_name": "3855",
+    "human_name": "lt autumn gold"
+  },
+  {
+    "anchor": 313,
+    "dmc_name": "3854",
+    "human_name": "md autumn gold"
+  },
+  {
+    "anchor": 314,
+    "dmc_name": "741",
+    "human_name": "md tangerine"
+  },
+  {
+    "anchor": 316,
+    "dmc_name": "740",
+    "human_name": "tangerine"
+  },
+  {
+    "anchor": 316,
+    "dmc_name": "970",
+    "human_name": "lt pumpkin"
+  },
+  {
+    "anchor": 316,
+    "dmc_name": "971",
+    "human_name": "pumpkin"
+  },
+  {
+    "anchor": 323,
+    "dmc_name": "3825",
+    "human_name": "pale pumpkin"
+  },
+  {
+    "anchor": 323,
+    "dmc_name": "722",
+    "human_name": "lt orange spice"
+  },
+  {
+    "anchor": 324,
+    "dmc_name": "721",
+    "human_name": "md orange spice"
+  },
+  {
+    "anchor": 326,
+    "dmc_name": "720",
+    "human_name": "dk orange spice"
+  },
+  {
+    "anchor": 328,
+    "dmc_name": "3341",
+    "human_name": "apricot"
+  },
+  {
+    "anchor": 329,
+    "dmc_name": "3340",
+    "human_name": "md apricot"
+  },
+  {
+    "anchor": 330,
+    "dmc_name": "947",
+    "human_name": "burnt orange"
+  },
+  {
+    "anchor": 332,
+    "dmc_name": "608",
+    "human_name": "bright orange"
+  },
+  {
+    "anchor": 332,
+    "dmc_name": "946",
+    "human_name": "md burnt orange"
+  },
+  {
+    "anchor": 333,
+    "dmc_name": "900",
+    "human_name": "dk burnt orange"
+  },
+  {
+    "anchor": 334,
+    "dmc_name": "606",
+    "human_name": "bright orange-red"
+  },
+  {
+    "anchor": 335,
+    "dmc_name": "606",
+    "human_name": "bright orange-red"
+  },
+  {
+    "anchor": 336,
+    "dmc_name": "3771",
+    "human_name": "ul vy lt terra cotta"
+  },
+  {
+    "anchor": 337,
+    "dmc_name": "3778",
+    "human_name": "lt terra cotta"
+  },
+  {
+    "anchor": 338,
+    "dmc_name": "3778",
+    "human_name": "lt terra cotta"
+  },
+  {
+    "anchor": 339,
+    "dmc_name": "920",
+    "human_name": "md copper"
+  },
+  {
+    "anchor": 340,
+    "dmc_name": "919",
+    "human_name": "red copper"
+  },
+  {
+    "anchor": 341,
+    "dmc_name": "918",
+    "human_name": "dk red copper"
+  },
+  {
+    "anchor": 342,
+    "dmc_name": "211",
+    "human_name": "lt lavender"
+  },
+  {
+    "anchor": 343,
+    "dmc_name": "3752",
+    "human_name": "vy lt antique blue"
+  },
+  {
+    "anchor": 347,
+    "dmc_name": "3064",
+    "human_name": "desert sand"
+  },
+  {
+    "anchor": 349,
+    "dmc_name": "3826",
+    "human_name": "golden brown"
+  },
+  {
+    "anchor": 351,
+    "dmc_name": "400",
+    "human_name": "dk mahogany"
+  },
+  {
+    "anchor": 352,
+    "dmc_name": "300",
+    "human_name": "vy dk mahogany"
+  },
+  {
+    "anchor": 354,
+    "dmc_name": "611",
+    "human_name": "drab brown"
+  },
+  {
+    "anchor": 355,
+    "dmc_name": "975",
+    "human_name": "dk golden brown"
+  },
+  {
+    "anchor": 357,
+    "dmc_name": "433",
+    "human_name": "Md Brown"
+  },
+  {
+    "anchor": 358,
+    "dmc_name": "3862",
+    "human_name": "dk mocha beige"
+  },
+  {
+    "anchor": 358,
+    "dmc_name": "433",
+    "human_name": "md brown"
+  },
+  {
+    "anchor": 359,
+    "dmc_name": "801",
+    "human_name": "dk coffee brown"
+  },
+  {
+    "anchor": 360,
+    "dmc_name": "898",
+    "human_name": "vy dk coffee brown"
+  },
+  {
+    "anchor": 361,
+    "dmc_name": "738",
+    "human_name": "vy lt tan"
+  },
+  {
+    "anchor": 362,
+    "dmc_name": "437",
+    "human_name": "lt tan"
+  },
+  {
+    "anchor": 363,
+    "dmc_name": "977",
+    "human_name": "lt golden brown"
+  },
+  {
+    "anchor": 365,
+    "dmc_name": "435",
+    "human_name": "vy lt brown"
+  },
+  {
+    "anchor": 366,
+    "dmc_name": "738",
+    "human_name": "vy lt tan"
+  },
+  {
+    "anchor": 366,
+    "dmc_name": "945",
+    "human_name": "tawny"
+  },
+  {
+    "anchor": 367,
+    "dmc_name": "738",
+    "human_name": "vy lt tan"
+  },
+  {
+    "anchor": 368,
+    "dmc_name": "437",
+    "human_name": "lt tan"
+  },
+  {
+    "anchor": 369,
+    "dmc_name": "435",
+    "human_name": "vy lt brown"
+  },
+  {
+    "anchor": 370,
+    "dmc_name": "780",
+    "human_name": "ul vy dk topaz"
+  },
+  {
+    "anchor": 371,
+    "dmc_name": "975",
+    "human_name": "dk golden brown"
+  },
+  {
+    "anchor": 372,
+    "dmc_name": "422",
+    "human_name": "lt hazelnut brown"
+  },
+  {
+    "anchor": 373,
+    "dmc_name": "3828",
+    "human_name": "hazelnut brown"
+  },
+  {
+    "anchor": 374,
+    "dmc_name": "420",
+    "human_name": "dk hazelnut brown"
+  },
+  {
+    "anchor": 375,
+    "dmc_name": "869",
+    "human_name": "vy dk hazelnut brown"
+  },
+  {
+    "anchor": 376,
+    "dmc_name": "3864",
+    "human_name": "lt mocha beige"
+  },
+  {
+    "anchor": 376,
+    "dmc_name": "842",
+    "human_name": "vy lt beige brown"
+  },
+  {
+    "anchor": 378,
+    "dmc_name": "3861",
+    "human_name": "lt cocoa"
+  },
+  {
+    "anchor": 379,
+    "dmc_name": "3860",
+    "human_name": "cocoa"
+  },
+  {
+    "anchor": 379,
+    "dmc_name": "3863",
+    "human_name": "md mocha beige"
+  },
+  {
+    "anchor": 380,
+    "dmc_name": "779",
+    "human_name": "dk cocoa"
+  },
+  {
+    "anchor": 381,
+    "dmc_name": "838",
+    "human_name": "vy dk beige brown"
+  },
+  {
+    "anchor": 381,
+    "dmc_name": "938",
+    "human_name": "ul dk coffee brown"
+  },
+  {
+    "anchor": 382,
+    "dmc_name": "3371",
+    "human_name": "black brown"
+  },
+  {
+    "anchor": 386,
+    "dmc_name": "3823",
+    "human_name": "ul pale yellow"
+  },
+  {
+    "anchor": 387,
+    "dmc_name": "Ecru",
+    "human_name": "ecru"
+  },
+  {
+    "anchor": 387,
+    "dmc_name": "739",
+    "human_name": "ul vy lt tan"
+  },
+  {
+    "anchor": 388,
+    "dmc_name": "842",
+    "human_name": "vy lt beige brown"
+  },
+  {
+    "anchor": 390,
+    "dmc_name": "822",
+    "human_name": "lt beige gray"
+  },
+  {
+    "anchor": 391,
+    "dmc_name": "3033",
+    "human_name": "vy lt mocha brown"
+  },
+  {
+    "anchor": 392,
+    "dmc_name": "642",
+    "human_name": "dk beige gray"
+  },
+  {
+    "anchor": 393,
+    "dmc_name": "3790",
+    "human_name": "ul dk beige gray"
+  },
+  {
+    "anchor": 397,
+    "dmc_name": "3024",
+    "human_name": "vy lt brown gray"
+  },
+  {
+    "anchor": 398,
+    "dmc_name": "168",
+    "human_name": "vy lt pewter"
+  },
+  {
+    "anchor": 398,
+    "dmc_name": "415",
+    "human_name": "pearl gray"
+  },
+  {
+    "anchor": 399,
+    "dmc_name": "318",
+    "human_name": "lt steel gray"
+  },
+  {
+    "anchor": 400,
+    "dmc_name": "317",
+    "human_name": "pewter gray"
+  },
+  {
+    "anchor": 401,
+    "dmc_name": "535",
+    "human_name": "vy lt ash gray"
+  },
+  {
+    "anchor": 403,
+    "dmc_name": "310",
+    "human_name": "black"
+  },
+  {
+    "anchor": 410,
+    "dmc_name": "3844",
+    "human_name": "dk bright turquoise"
+  },
+  {
+    "anchor": 410,
+    "dmc_name": "995",
+    "human_name": "dk electric blue"
+  },
+  {
+    "anchor": 433,
+    "dmc_name": "996",
+    "human_name": "md electric blue"
+  },
+  {
+    "anchor": 675,
+    "dmc_name": "3808",
+    "human_name": "ul vy dk turquoise"
+  },
+  {
+    "anchor": 676,
+    "dmc_name": "452",
+    "human_name": "md shell gray"
+  },
+  {
+    "anchor": 677,
+    "dmc_name": "3863",
+    "human_name": "md mocha beige"
+  },
+  {
+    "anchor": 678,
+    "dmc_name": "611",
+    "human_name": "drab brown"
+  },
+  {
+    "anchor": 679,
+    "dmc_name": "3772",
+    "human_name": "vy dk desert sand"
+  },
+  {
+    "anchor": 681,
+    "dmc_name": "3051",
+    "human_name": "dk green gray"
+  },
+  {
+    "anchor": 683,
+    "dmc_name": "500",
+    "human_name": "vy dk blue green"
+  },
+  {
+    "anchor": 772,
+    "dmc_name": "3772",
+    "human_name": "vy dk desert sand"
+  },
+  {
+    "anchor": 778,
+    "dmc_name": "3774",
+    "human_name": "vy lt desert sand"
+  },
+  {
+    "anchor": 779,
+    "dmc_name": "3768",
+    "human_name": "dk gray green"
+  },
+  {
+    "anchor": 781,
+    "dmc_name": "931",
+    "human_name": "md antique blue"
+  },
+  {
+    "anchor": 799,
+    "dmc_name": "498",
+    "human_name": "dk red"
+  },
+  {
+    "anchor": 802,
+    "dmc_name": "445",
+    "human_name": "lt lemon"
+  },
+  {
+    "anchor": 803,
+    "dmc_name": "976",
+    "human_name": "md golden brown"
+  },
+  {
+    "anchor": 815,
+    "dmc_name": "414",
+    "human_name": "dk steel gray"
+  },
+  {
+    "anchor": 816,
+    "dmc_name": "924",
+    "human_name": "vy dk gray green"
+  },
+  {
+    "anchor": 817,
+    "dmc_name": "580",
+    "human_name": "dk moss green"
+  },
+  {
+    "anchor": 820,
+    "dmc_name": "729",
+    "human_name": "md old gold"
+  },
+  {
+    "anchor": 830,
+    "dmc_name": "644",
+    "human_name": "md beige gray"
+  },
+  {
+    "anchor": 831,
+    "dmc_name": "613",
+    "human_name": "vy lt drab brown"
+  },
+  {
+    "anchor": 832,
+    "dmc_name": "612",
+    "human_name": "lt drab brown"
+  },
+  {
+    "anchor": 837,
+    "dmc_name": "927",
+    "human_name": "lt gray green"
+  },
+  {
+    "anchor": 840,
+    "dmc_name": "930",
+    "human_name": "dk antique blue"
+  },
+  {
+    "anchor": 842,
+    "dmc_name": "3013",
+    "human_name": "lt khaki green"
+  },
+  {
+    "anchor": 842,
+    "dmc_name": "3348",
+    "human_name": "lt yellow green"
+  },
+  {
+    "anchor": 843,
+    "dmc_name": "3012",
+    "human_name": "md khaki green"
+  },
+  {
+    "anchor": 844,
+    "dmc_name": "3012",
+    "human_name": "md khaki green"
+  },
+  {
+    "anchor": 845,
+    "dmc_name": "730",
+    "human_name": "vy dk olive green"
+  },
+  {
+    "anchor": 846,
+    "dmc_name": "3011",
+    "human_name": "dk khaki green"
+  },
+  {
+    "anchor": 847,
+    "dmc_name": "3072",
+    "human_name": "vy lt beaver gray"
+  },
+  {
+    "anchor": 848,
+    "dmc_name": "927",
+    "human_name": "lt gray green"
+  },
+  {
+    "anchor": 849,
+    "dmc_name": "169",
+    "human_name": "lt pewter"
+  },
+  {
+    "anchor": 850,
+    "dmc_name": "926",
+    "human_name": "md gray green"
+  },
+  {
+    "anchor": 851,
+    "dmc_name": "924",
+    "human_name": "vy dk gray green"
+  },
+  {
+    "anchor": 852,
+    "dmc_name": "3047",
+    "human_name": "lt yellow beige"
+  },
+  {
+    "anchor": 853,
+    "dmc_name": "372",
+    "human_name": "lt mustard"
+  },
+  {
+    "anchor": 854,
+    "dmc_name": "371",
+    "human_name": "mustard"
+  },
+  {
+    "anchor": 855,
+    "dmc_name": "370",
+    "human_name": "md mustard"
+  },
+  {
+    "anchor": 858,
+    "dmc_name": "524",
+    "human_name": "vy lt fern green"
+  },
+  {
+    "anchor": 859,
+    "dmc_name": "523",
+    "human_name": "lt fern green"
+  },
+  {
+    "anchor": 860,
+    "dmc_name": "522",
+    "human_name": "fern green"
+  },
+  {
+    "anchor": 861,
+    "dmc_name": "935",
+    "human_name": "dk avocado green"
+  },
+  {
+    "anchor": 862,
+    "dmc_name": "520",
+    "human_name": "dk fern green"
+  },
+  {
+    "anchor": 862,
+    "dmc_name": "934",
+    "human_name": "black avocado green"
+  },
+  {
+    "anchor": 868,
+    "dmc_name": "758",
+    "human_name": "vy lt terra cotta"
+  },
+  {
+    "anchor": 869,
+    "dmc_name": "3743",
+    "human_name": "vy lt antique violet"
+  },
+  {
+    "anchor": 870,
+    "dmc_name": "3042",
+    "human_name": "lt antique violet"
+  },
+  {
+    "anchor": 871,
+    "dmc_name": "3041",
+    "human_name": "md antique violet"
+  },
+  {
+    "anchor": 872,
+    "dmc_name": "3740",
+    "human_name": "dk antique violet"
+  },
+  {
+    "anchor": 873,
+    "dmc_name": "154",
+    "human_name": "vy dk grape"
+  },
+  {
+    "anchor": 873,
+    "dmc_name": "3740",
+    "human_name": "dk antique violet"
+  },
+  {
+    "anchor": 874,
+    "dmc_name": "834",
+    "human_name": "vy lt golden olive"
+  },
+  {
+    "anchor": 875,
+    "dmc_name": "3813",
+    "human_name": "lt blue green"
+  },
+  {
+    "anchor": 875,
+    "dmc_name": "3817",
+    "human_name": "lt celadon green"
+  },
+  {
+    "anchor": 876,
+    "dmc_name": "3816",
+    "human_name": "celadon green"
+  },
+  {
+    "anchor": 876,
+    "dmc_name": "503",
+    "human_name": "md blue green"
+  },
+  {
+    "anchor": 877,
+    "dmc_name": "163",
+    "human_name": "md celadon green"
+  },
+  {
+    "anchor": 877,
+    "dmc_name": "3815",
+    "human_name": "dk celadon green"
+  },
+  {
+    "anchor": 877,
+    "dmc_name": "502",
+    "human_name": "blue green"
+  },
+  {
+    "anchor": 878,
+    "dmc_name": "501",
+    "human_name": "dk blue green"
+  },
+  {
+    "anchor": 879,
+    "dmc_name": "500",
+    "human_name": "vy dk blue green"
+  },
+  {
+    "anchor": 880,
+    "dmc_name": "951",
+    "human_name": "lt tawny"
+  },
+  {
+    "anchor": 881,
+    "dmc_name": "945",
+    "human_name": "tawny"
+  },
+  {
+    "anchor": 882,
+    "dmc_name": "758",
+    "human_name": "vy lt terra cotta"
+  },
+  {
+    "anchor": 883,
+    "dmc_name": "3064",
+    "human_name": "desert sand"
+  },
+  {
+    "anchor": 884,
+    "dmc_name": "355",
+    "human_name": "dk terra cotta"
+  },
+  {
+    "anchor": 884,
+    "dmc_name": "920",
+    "human_name": "md copper"
+  },
+  {
+    "anchor": 885,
+    "dmc_name": "739",
+    "human_name": "ul vy lt tan"
+  },
+  {
+    "anchor": 886,
+    "dmc_name": "677",
+    "human_name": "vy lt old gold"
+  },
+  {
+    "anchor": 887,
+    "dmc_name": "3046",
+    "human_name": "md yellow beige"
+  },
+  {
+    "anchor": 888,
+    "dmc_name": "3045",
+    "human_name": "dk yellow beige"
+  },
+  {
+    "anchor": 889,
+    "dmc_name": "610",
+    "human_name": "dk drab brown"
+  },
+  {
+    "anchor": 890,
+    "dmc_name": "729",
+    "human_name": "md old gold"
+  },
+  {
+    "anchor": 891,
+    "dmc_name": "3825",
+    "human_name": "pale pumpkin"
+  },
+  {
+    "anchor": 891,
+    "dmc_name": "676",
+    "human_name": "lt old gold"
+  },
+  {
+    "anchor": 892,
+    "dmc_name": "225",
+    "human_name": "ul vy lt shell pink"
+  },
+  {
+    "anchor": 893,
+    "dmc_name": "224",
+    "human_name": "vy lt shell pink"
+  },
+  {
+    "anchor": 895,
+    "dmc_name": "223",
+    "human_name": "lt shell pink"
+  },
+  {
+    "anchor": 896,
+    "dmc_name": "3721",
+    "human_name": "dk shell pink"
+  },
+  {
+    "anchor": 897,
+    "dmc_name": "221",
+    "human_name": "vy dk shell pink"
+  },
+  {
+    "anchor": 897,
+    "dmc_name": "902",
+    "human_name": "vy dk garnet"
+  },
+  {
+    "anchor": 898,
+    "dmc_name": "167",
+    "human_name": "vy dk yellow beige"
+  },
+  {
+    "anchor": 898,
+    "dmc_name": "611",
+    "human_name": "drab brown"
+  },
+  {
+    "anchor": 899,
+    "dmc_name": "3782",
+    "human_name": "lt mocha brown"
+  },
+  {
+    "anchor": 900,
+    "dmc_name": "648",
+    "human_name": "lt beaver gray"
+  },
+  {
+    "anchor": 901,
+    "dmc_name": "3829",
+    "human_name": "vy dk old gold"
+  },
+  {
+    "anchor": 901,
+    "dmc_name": "680",
+    "human_name": "dk old gold"
+  },
+  {
+    "anchor": 903,
+    "dmc_name": "3032",
+    "human_name": "md mocha brown"
+  },
+  {
+    "anchor": 903,
+    "dmc_name": "640",
+    "human_name": "vy dk beige gray"
+  },
+  {
+    "anchor": 904,
+    "dmc_name": "3781",
+    "human_name": "dk mocha brown"
+  },
+  {
+    "anchor": 905,
+    "dmc_name": "3021",
+    "human_name": "vy dk brown gray"
+  },
+  {
+    "anchor": 905,
+    "dmc_name": "3031",
+    "human_name": "vy dk mocha brown"
+  },
+  {
+    "anchor": 906,
+    "dmc_name": "829",
+    "human_name": "vy dk golden olive"
+  },
+  {
+    "anchor": 907,
+    "dmc_name": "832",
+    "human_name": "golden olive"
+  },
+  {
+    "anchor": 907,
+    "dmc_name": "833",
+    "human_name": "lt golden olive"
+  },
+  {
+    "anchor": 914,
+    "dmc_name": "3859",
+    "human_name": "lt rosewood"
+  },
+  {
+    "anchor": 914,
+    "dmc_name": "407",
+    "human_name": "dk desert sand"
+  },
+  {
+    "anchor": 920,
+    "dmc_name": "932",
+    "human_name": "lt antique blue"
+  },
+  {
+    "anchor": 921,
+    "dmc_name": "931",
+    "human_name": "md antique blue"
+  },
+  {
+    "anchor": 922,
+    "dmc_name": "930",
+    "human_name": "dk antique blue"
+  },
+  {
+    "anchor": 923,
+    "dmc_name": "3818",
+    "human_name": "ul vy dk emerald greene"
+  },
+  {
+    "anchor": 923,
+    "dmc_name": "699",
+    "human_name": "green"
+  },
+  {
+    "anchor": 923,
+    "dmc_name": "909",
+    "human_name": "vy dk emerald green"
+  },
+  {
+    "anchor": 924,
+    "dmc_name": "731",
+    "human_name": "dk olive green"
+  },
+  {
+    "anchor": 925,
+    "dmc_name": "721",
+    "human_name": "md orange spice"
+  },
+  {
+    "anchor": 926,
+    "dmc_name": "3866",
+    "human_name": "ul vy lt mocha brown"
+  },
+  {
+    "anchor": 926,
+    "dmc_name": "712",
+    "human_name": "cream"
+  },
+  {
+    "anchor": 928,
+    "dmc_name": "3761",
+    "human_name": "lt sky blue"
+  },
+  {
+    "anchor": 933,
+    "dmc_name": "543",
+    "human_name": "ul vy lt beige brown"
+  },
+  {
+    "anchor": 936,
+    "dmc_name": "632",
+    "human_name": "ul vy dk desert sand"
+  },
+  {
+    "anchor": 939,
+    "dmc_name": "3755",
+    "human_name": "baby blue"
+  },
+  {
+    "anchor": 940,
+    "dmc_name": "824",
+    "human_name": "vy dk blue"
+  },
+  {
+    "anchor": 941,
+    "dmc_name": "792",
+    "human_name": "dk cornflower blue"
+  },
+  {
+    "anchor": 942,
+    "dmc_name": "738",
+    "human_name": "vy lt tan"
+  },
+  {
+    "anchor": 943,
+    "dmc_name": "422",
+    "human_name": "lt hazelnut brown"
+  },
+  {
+    "anchor": 944,
+    "dmc_name": "869",
+    "human_name": "vy dk hazelnut brown"
+  },
+  {
+    "anchor": 945,
+    "dmc_name": "834",
+    "human_name": "vy lt golden olive"
+  },
+  {
+    "anchor": 956,
+    "dmc_name": "613",
+    "human_name": "vy lt drab brown"
+  },
+  {
+    "anchor": 968,
+    "dmc_name": "778",
+    "human_name": "vy lt antique mauve"
+  },
+  {
+    "anchor": 969,
+    "dmc_name": "152",
+    "human_name": "md lt shell pink"
+  },
+  {
+    "anchor": 970,
+    "dmc_name": "3687",
+    "human_name": "mauve"
+  },
+  {
+    "anchor": 972,
+    "dmc_name": "3803",
+    "human_name": "dk mauve"
+  },
+  {
+    "anchor": 975,
+    "dmc_name": "828",
+    "human_name": "ul vy very lt blue"
+  },
+  {
+    "anchor": 976,
+    "dmc_name": "3752",
+    "human_name": "vy lt antique blue"
+  },
+  {
+    "anchor": 977,
+    "dmc_name": "334",
+    "human_name": "md baby blue"
+  },
+  {
+    "anchor": 978,
+    "dmc_name": "322",
+    "human_name": "dk dark baby blue"
+  },
+  {
+    "anchor": 979,
+    "dmc_name": "312",
+    "human_name": "vy dk baby blue"
+  },
+  {
+    "anchor": 1001,
+    "dmc_name": "976",
+    "human_name": "md golden brown"
+  },
+  {
+    "anchor": 1002,
+    "dmc_name": "977",
+    "human_name": "lt golden brown"
+  },
+  {
+    "anchor": 1003,
+    "dmc_name": "3853",
+    "human_name": "dk autumn gold"
+  },
+  {
+    "anchor": 1003,
+    "dmc_name": "921",
+    "human_name": "copper"
+  },
+  {
+    "anchor": 1003,
+    "dmc_name": "922",
+    "human_name": "lt copper"
+  },
+  {
+    "anchor": 1004,
+    "dmc_name": "920",
+    "human_name": "md copper"
+  },
+  {
+    "anchor": 1005,
+    "dmc_name": "498",
+    "human_name": "dk red"
+  },
+  {
+    "anchor": 1005,
+    "dmc_name": "816",
+    "human_name": "garnet"
+  },
+  {
+    "anchor": 1006,
+    "dmc_name": "304",
+    "human_name": "md red"
+  },
+  {
+    "anchor": 1007,
+    "dmc_name": "3772",
+    "human_name": "vy dk desert sand"
+  },
+  {
+    "anchor": 1007,
+    "dmc_name": "3858",
+    "human_name": "md rosewood"
+  },
+  {
+    "anchor": 1008,
+    "dmc_name": "3773",
+    "human_name": "md desert sand"
+  },
+  {
+    "anchor": 1009,
+    "dmc_name": "3770",
+    "human_name": "vy lt tawny"
+  },
+  {
+    "anchor": 1009,
+    "dmc_name": "3773",
+    "human_name": "md desert sand"
+  },
+  {
+    "anchor": 1010,
+    "dmc_name": "3856",
+    "human_name": "ul vy lt mahogany"
+  },
+  {
+    "anchor": 1010,
+    "dmc_name": "951",
+    "human_name": "lt tawny"
+  },
+  {
+    "anchor": 1011,
+    "dmc_name": "948",
+    "human_name": "vy lt peach"
+  },
+  {
+    "anchor": 1012,
+    "dmc_name": "3779",
+    "human_name": "ul vy lt terra cotta"
+  },
+  {
+    "anchor": 1012,
+    "dmc_name": "754",
+    "human_name": "lt peach"
+  },
+  {
+    "anchor": 1012,
+    "dmc_name": "967",
+    "human_name": "vy lt apricot"
+  },
+  {
+    "anchor": 1013,
+    "dmc_name": "3778",
+    "human_name": "lt terra cotta"
+  },
+  {
+    "anchor": 1014,
+    "dmc_name": "335",
+    "human_name": "rose"
+  },
+  {
+    "anchor": 1014,
+    "dmc_name": "355",
+    "human_name": "dk terra cotta"
+  },
+  {
+    "anchor": 1015,
+    "dmc_name": "3777",
+    "human_name": "vy dk terra cotta"
+  },
+  {
+    "anchor": 1016,
+    "dmc_name": "3727",
+    "human_name": "lt antique mauve"
+  },
+  {
+    "anchor": 1017,
+    "dmc_name": "316",
+    "human_name": "md antique mauve"
+  },
+  {
+    "anchor": 1018,
+    "dmc_name": "3726",
+    "human_name": "dk antique mauve"
+  },
+  {
+    "anchor": 1019,
+    "dmc_name": "315",
+    "human_name": "md dk antique mauve"
+  },
+  {
+    "anchor": 1019,
+    "dmc_name": "3802",
+    "human_name": "vy dk antique mauve"
+  },
+  {
+    "anchor": 1020,
+    "dmc_name": "3713",
+    "human_name": "vy lt salmon"
+  },
+  {
+    "anchor": 1021,
+    "dmc_name": "761",
+    "human_name": "lt salmon"
+  },
+  {
+    "anchor": 1022,
+    "dmc_name": "760",
+    "human_name": "salmon"
+  },
+  {
+    "anchor": 1023,
+    "dmc_name": "3712",
+    "human_name": "md salmon"
+  },
+  {
+    "anchor": 1024,
+    "dmc_name": "3328",
+    "human_name": "dk salmon"
+  },
+  {
+    "anchor": 1025,
+    "dmc_name": "347",
+    "human_name": "vy dk salmon"
+  },
+  {
+    "anchor": 1026,
+    "dmc_name": "225",
+    "human_name": "ul vy lt shell pink"
+  },
+  {
+    "anchor": 1027,
+    "dmc_name": "3722",
+    "human_name": "md shell pink"
+  },
+  {
+    "anchor": 1028,
+    "dmc_name": "3685",
+    "human_name": "vy dk mauve"
+  },
+  {
+    "anchor": 1029,
+    "dmc_name": "915",
+    "human_name": "dk plum"
+  },
+  {
+    "anchor": 1030,
+    "dmc_name": "155",
+    "human_name": "md dk blue violet"
+  },
+  {
+    "anchor": 1030,
+    "dmc_name": "3746",
+    "human_name": "dk blue violet"
+  },
+  {
+    "anchor": 1031,
+    "dmc_name": "3753",
+    "human_name": "ul vy lt antique blue"
+  },
+  {
+    "anchor": 1032,
+    "dmc_name": "3752",
+    "human_name": "vy lt antique blue"
+  },
+  {
+    "anchor": 1033,
+    "dmc_name": "932",
+    "human_name": "lt antique blue"
+  },
+  {
+    "anchor": 1034,
+    "dmc_name": "931",
+    "human_name": "md antique blue"
+  },
+  {
+    "anchor": 1035,
+    "dmc_name": "930",
+    "human_name": "dk antique blue"
+  },
+  {
+    "anchor": 1036,
+    "dmc_name": "3750",
+    "human_name": "vy dk antique blue"
+  },
+  {
+    "anchor": 1037,
+    "dmc_name": "3756",
+    "human_name": "ul vy lt baby blue"
+  },
+  {
+    "anchor": 1038,
+    "dmc_name": "519",
+    "human_name": "sky blue"
+  },
+  {
+    "anchor": 1039,
+    "dmc_name": "518",
+    "human_name": "lt wedgewood"
+  },
+  {
+    "anchor": 1040,
+    "dmc_name": "3023",
+    "human_name": "lt brown gray"
+  },
+  {
+    "anchor": 1040,
+    "dmc_name": "647",
+    "human_name": "md beaver gray"
+  },
+  {
+    "anchor": 1041,
+    "dmc_name": "844",
+    "human_name": "ul dk beaver gray"
+  },
+  {
+    "anchor": 1042,
+    "dmc_name": "504",
+    "human_name": "vy lt blue green"
+  },
+  {
+    "anchor": 1043,
+    "dmc_name": "14",
+    "human_name": "apple green pale"
+  },
+  {
+    "anchor": 1043,
+    "dmc_name": "369",
+    "human_name": "vy lt pistachio green"
+  },
+  {
+    "anchor": 1044,
+    "dmc_name": "895",
+    "human_name": "vy dk hunter green"
+  },
+  {
+    "anchor": 1045,
+    "dmc_name": "436",
+    "human_name": "tan"
+  },
+  {
+    "anchor": 1046,
+    "dmc_name": "435",
+    "human_name": "vy lt brown"
+  },
+  {
+    "anchor": 1047,
+    "dmc_name": "402",
+    "human_name": "vy lt mahogany"
+  },
+  {
+    "anchor": 1048,
+    "dmc_name": "3776",
+    "human_name": "lt mahogany"
+  },
+  {
+    "anchor": 1049,
+    "dmc_name": "301",
+    "human_name": "md mahogany"
+  },
+  {
+    "anchor": 1049,
+    "dmc_name": "3826",
+    "human_name": "golden brown"
+  },
+  {
+    "anchor": 1050,
+    "dmc_name": "3781",
+    "human_name": "dk mocha brown"
+  },
+  {
+    "anchor": 1060,
+    "dmc_name": "3811",
+    "human_name": "vy lt turquoise"
+  },
+  {
+    "anchor": 1062,
+    "dmc_name": "598",
+    "human_name": "lt turquoise"
+  },
+  {
+    "anchor": 1064,
+    "dmc_name": "597",
+    "human_name": "turquoise"
+  },
+  {
+    "anchor": 1066,
+    "dmc_name": "3809",
+    "human_name": "vy dk turquoise"
+  },
+  {
+    "anchor": 1066,
+    "dmc_name": "3810",
+    "human_name": "dk turquoise"
+  },
+  {
+    "anchor": 1068,
+    "dmc_name": "3808",
+    "human_name": "ul vy dk turquoise"
+  },
+  {
+    "anchor": 1070,
+    "dmc_name": "992",
+    "human_name": "vy lt aquamarine"
+  },
+  {
+    "anchor": 1072,
+    "dmc_name": "992",
+    "human_name": "lt aquamarine"
+  },
+  {
+    "anchor": 1072,
+    "dmc_name": "992",
+    "human_name": "vy lt aquamarine"
+  },
+  {
+    "anchor": 1074,
+    "dmc_name": "3814",
+    "human_name": "aquamarine"
+  },
+  {
+    "anchor": 1074,
+    "dmc_name": "3848",
+    "human_name": "md teal green"
+  },
+  {
+    "anchor": 1076,
+    "dmc_name": "3847",
+    "human_name": "dk teal green"
+  },
+  {
+    "anchor": 1076,
+    "dmc_name": "991",
+    "human_name": "dk aquamarine"
+  },
+  {
+    "anchor": 1080,
+    "dmc_name": "842",
+    "human_name": "vy lt beige brown"
+  },
+  {
+    "anchor": 1082,
+    "dmc_name": "841",
+    "human_name": "lt beige brown"
+  },
+  {
+    "anchor": 1084,
+    "dmc_name": "840",
+    "human_name": "md beige brown"
+  },
+  {
+    "anchor": 1086,
+    "dmc_name": "839",
+    "human_name": "dk beige brown"
+  },
+  {
+    "anchor": 1088,
+    "dmc_name": "938",
+    "human_name": "ul dk coffee brown"
+  },
+  {
+    "anchor": 1089,
+    "dmc_name": "3843",
+    "human_name": "electric blue"
+  },
+  {
+    "anchor": 1089,
+    "dmc_name": "3845",
+    "human_name": "md bright turquoise"
+  },
+  {
+    "anchor": 1090,
+    "dmc_name": "3846",
+    "human_name": "lt bright turquoise"
+  },
+  {
+    "anchor": 1092,
+    "dmc_name": "964",
+    "human_name": "lt seagreen"
+  },
+  {
+    "anchor": 1094,
+    "dmc_name": "605",
+    "human_name": "vy lt cranberry"
+  },
+  {
+    "anchor": 1096,
+    "dmc_name": "3753",
+    "human_name": "ul vy lt antique blue"
+  },
+  {
+    "anchor": 1098,
+    "dmc_name": "3801",
+    "human_name": "vy dk melon"
+  },
+  {
+    "anchor": 1203,
+    "dmc_name": "105",
+    "human_name": "variegated tan/brown"
+  },
+  {
+    "anchor": 1203,
+    "dmc_name": "107",
+    "human_name": "variegated carnation"
+  },
+  {
+    "anchor": 1203,
+    "dmc_name": "57",
+    "human_name": "variegated red"
+  },
+  {
+    "anchor": 1204,
+    "dmc_name": "107",
+    "human_name": "variegated carnation"
+  },
+  {
+    "anchor": 1206,
+    "dmc_name": "115",
+    "human_name": "variegated garnet"
+  },
+  {
+    "anchor": 1209,
+    "dmc_name": "52",
+    "human_name": "variegated violet"
+  },
+  {
+    "anchor": 1209,
+    "dmc_name": "94",
+    "human_name": "variegated khaki green"
+  },
+  {
+    "anchor": 1210,
+    "dmc_name": "121",
+    "human_name": "variegated delft blue"
+  },
+  {
+    "anchor": 1213,
+    "dmc_name": "125",
+    "human_name": "variegated seafoam green"
+  },
+  {
+    "anchor": 1213,
+    "dmc_name": "99",
+    "human_name": "variegated mauve"
+  },
+  {
+    "anchor": 1215,
+    "dmc_name": "92",
+    "human_name": "variegated avocado"
+  },
+  {
+    "anchor": 1217,
+    "dmc_name": "103",
+    "human_name": "variegated royal blue"
+  },
+  {
+    "anchor": 1217,
+    "dmc_name": "90",
+    "human_name": "variegated yellow"
+  },
+  {
+    "anchor": 1218,
+    "dmc_name": "106",
+    "human_name": "variegated coral"
+  },
+  {
+    "anchor": 1218,
+    "dmc_name": "111",
+    "human_name": "variegated mustard"
+  },
+  {
+    "anchor": 1218,
+    "dmc_name": "69",
+    "human_name": "variegated terra cotta"
+  },
+  {
+    "anchor": 1220,
+    "dmc_name": "51",
+    "human_name": "variegated burnt orange"
+  },
+  {
+    "anchor": 4146,
+    "dmc_name": "950",
+    "human_name": "lt desert sand"
+  },
+  {
+    "anchor": 5975,
+    "dmc_name": "356",
+    "human_name": "md terra cotta"
+  },
+  {
+    "anchor": 5975,
+    "dmc_name": "3830",
+    "human_name": "terra cotta"
+  },
+  {
+    "anchor": 8581,
+    "dmc_name": "3022",
+    "human_name": "md brown gray"
+  },
+  {
+    "anchor": 8581,
+    "dmc_name": "646",
+    "human_name": "dk beaver gray"
+  },
+  {
+    "anchor": 9046,
+    "dmc_name": "321",
+    "human_name": "red"
+  },
+  {
+    "anchor": 9159,
+    "dmc_name": "3841",
+    "human_name": "pale baby blue"
+  },
+  {
+    "anchor": 9159,
+    "dmc_name": "828",
+    "human_name": "ul vy very lt blue"
+  },
+  {
+    "anchor": 9575,
+    "dmc_name": "758",
+    "human_name": "vy lt terra cotta"
+  }
+]
