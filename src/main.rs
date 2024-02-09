@@ -239,4 +239,4 @@ fn rgb_owo(rgb: Rgb) -> DynColors {
 }
 
 // Provides static COLOUR_MAP: ColourMap
-include!(concat!(env!("OUT_DIR"), "/codegen.rs"));
+include!(concat!(env!("OUT_DIR"), "/hexdmc.rs"));
