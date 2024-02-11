@@ -1,13 +1,13 @@
 use std::{
-    env, fmt,
     fs::File,
     io::{BufReader, Write},
-    path::Path,
 };
 
 use serde::Deserialize;
 
 mod hexdmc {
+    use std::{env, fmt, path::Path};
+
     use super::*;
 
     #[derive(Debug, Deserialize)]
@@ -84,7 +84,28 @@ mod hexdmc {
     }
 }
 
+mod anchordmc {
+    use super::*;
+
+    #[derive(Debug, Deserialize)]
+    struct AnchorDmc {
+        anchor: u16,
+        dmc_name: String,
+        human_name: String,
+    }
+
+    pub fn generate_anchordmc_rs() {
+        println!("cargo:rerun-if-changed=anchordmc.json");
+
+        let file = File::open("anchordmc.json").unwrap();
+        let reader = BufReader::new(file);
+        let info: Vec<AnchorDmc> = serde_json::from_reader(reader).unwrap();
+        panic!("{:#?}", &info[0..4]);
+    }
+}
+
 fn main() {
     println!("cargo:rerun-if-changed=build.rs");
     hexdmc::generate_hexdmc_rs();
+    anchordmc::generate_anchordmc_rs();
 }
